@@ -1,0 +1,367 @@
+---
+layout: default
+title: CDLI Semantic Anno Test
+---
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@recogito/recogito-js@1.7.1/dist/recogito.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@recogito/recogito-js@1.7.1/dist/recogito.min.js"></script>
+	<script src="{{site.baseurl}}/js/data/nuolenna.js"></script><script src="{{site.baseurl}}/js/recogito-semantic-tags.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/d3-sparql@2.0.0/build/d3-sparql.min.js"></script>
+	<style>
+@font-face {
+font-family: Santakku;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/Santakku.woff) format("woff"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/Santakku.eot) format("embedded-opentype"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/Santakku.ttf) format("truetype");
+}
+.santakku {
+font-family: Santakku;
+}
+@font-face {
+font-family: CuneiformOB;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformOB.woff) format("woff"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformOB.eot) format("embedded-opentype"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformOB.ttf) format("truetype");
+}
+.cuneiformob {
+font-family: CuneiformOB;
+}
+@font-face {
+font-family: SantakkuM;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/SantakkuM.woff) format("woff"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/SantakkuM.eot) format("embedded-opentype"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/SantakkuM.ttf) format("truetype");
+}
+.akkadian {
+font-family: Akkadian;
+}
+@font-face {
+font-family: Akkadian;
+src:  url(https://tacume.gitlab.io/cuneiform_webtools/fonts/Akkadian.ttf) format("truetype");
+}
+.santakkum {
+font-family: SantakkuM;
+}
+@font-face {
+font-family: UllikummiA;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiA.woff) format("woff"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiA.eot) format("embedded-opentype"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiA.ttf) format("truetype");
+}
+.ullikummia {
+font-family: UllikummiA;
+}
+@font-face {
+font-family: UllikummiB;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiB.woff) format("woff"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiB.eot) format("embedded-opentype"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiB.ttf) format("truetype");
+}
+.ullikummib {
+font-family: UllikummiB;
+}
+@font-face {
+font-family: UllikummiC;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiC.woff) format("woff"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiC.eot) format("embedded-opentype"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiC.ttf) format("truetype");
+}
+.ullikummic {
+font-family: UllikummiC;
+}
+@font-face {
+font-family: Assurbanipal;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/Assurbanipal.woff) format("woff"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/Assurbanipal.eot) format("embedded-opentype"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/Assurbanipal.ttf) format("truetype");
+}
+.assurbanipal {
+font-family: Assurbanipal;
+}
+
+@font-face {
+font-family: CuneiformNA;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformNA.woff) format("woff"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformNA.eot) format("embedded-opentype"),
+		url(https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformNA.ttf) format("truetype");
+}
+.cuneiformna {
+font-family: CuneiformNA;
+}
+
+@font-face {
+font-family: Sinacherib;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/Sinacherib.ttf) format("truetype");
+}
+.sinacherib {
+font-family: Sinacherib;
+}
+
+@font-face {
+font-family: CuneiformComposite;
+src: url(https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformComposite.ttf) format("truetype");
+}
+.cuneiformcomposite {
+font-family: CuneiformComposite;
+}
+	html, body {
+        padding:10px 20px;
+        margin:0;
+      }
+
+      h1 {
+        font-size:22px;
+        margin-top:30px;
+        margin-bottom:20px;
+      }
+	  
+	  .left {
+		width:50%;
+		float:left;
+	  }
+	  
+	  .right{
+		width:50%;
+		float:right;
+	  }
+
+      #content {      
+        font-family:'Lato', sans-serif;
+        font-size:17px;
+        line-height:27px;
+      }</style><script defer="defer" src="{{site.baseurl}}/js/recogito-semantic-tags.min.js"></script></head><body><div id="content" class="plaintext"><h1>CDLI Semantic Tag Test</h1>
+	  Load a CDLI Text by entering a CDLI number: P<input type="number" id="cdlinumber" value="123456"><button id="loadtext" onclick="loadText()">Load</button>
+          <br/><button id="owntext" onclick="textArea()">Enter own Text in ATF</button><button id="edittext" onclick="editText()">Edit Text</button><button id="owntext" onclick="useText()">Save</button>
+	  <div>
+          <span id="popuplang" class="left">Popup Language:<select id="popuplanguage"><option value="sux">Sumerian</option><option value="akk;sux">Akkadian</option></select></span>
+	   <span id="fontchooser" class="right">Font: <select id="font" onchange="updateFont()">
+		  <option value="cuneiformcomposite">Cuneiform Composite (Cuneiform Composite)</option>
+		  <option value="akkadian">Akkadian (Akkadian)</option>
+      <option value="assurbanipal">Neo-Assyrian (Assurbanipal)</option>
+		  <option value="cuneiformna">Neo-Assyrian (CuneiformNA)</option>
+		  <option value="sinacherib">Neo-Assyrian (Sinacherib)</option>
+		  <option value="santakku">Cursive Old Babylonian (Santakku)</option>
+	  	  <option value="cuneiformob">Monumental Old Babylonian (CuneiformOB)</option>
+		  <option value="cuneiformob2">Monumental Old Babylonian (SantakkuM)</option>
+		  <option value="ullikummia">Hittite (UllikummiA)</option>
+		  <option value="ullikummib">Hittite (UllikummiB)</option>
+		  <option value="ullikummic">Hittite (UllikummiC)</option>  
+	  </select></span> 
+	  <p id="cdlitext" class="left" style="white-space: pre;" contenteditable="false"></p>
+	  <p id="cdlitextcunei" class="right"></p>
+	  </div>
+      <script>
+	  function updateFont(){
+		$("#cdlitextcunei").removeClass();
+		$('#cdlitextcunei').addClass("right")
+	  	$('#cdlitextcunei').addClass($('#font').val())
+	  }
+	  function textArea(){
+		if(!document.getElementById("cdlitext").isContentEditable){
+			$('#cdlitext').html("")
+			$('#cdlitextcunei').html("")
+			$('#cdlitext').attr("contenteditable",true);
+			//$('#owntext').prop("disabled",false);
+			$('#cdlitext').css('border', '1px solid black');		
+		}
+	  }
+	  function editText(){
+		if(!document.getElementById("cdlitext").isContentEditable){
+			$('#cdlitext').html($('#cdlitext').html().replaceAll("<br>","\n"))							
+			$('#cdlitext').attr("contenteditable",true);
+			//$('#owntext').prop("disabled",false);
+			$('#cdlitext').css('border', '1px solid black');
+		}
+	  }
+	   function useText(){
+		if(document.getElementById("cdlitext").isContentEditable){
+			$('#cdlitextcunei').html("")
+			$('#cdlitext').attr("contenteditable",false);
+			//$('#owntext').prop("disabled",true);
+			$('#cdlitext').css('border', 'none');
+			initializeText($('#cdlitext').text())
+		}
+	  }
+	  var wordinfocache={}
+      function loadText(){
+            cdlinumber=$('#cdlinumber').val()
+			$('#cdlitext').css('border', 'none');
+            $.get( "https://cdli.earth/artifacts/"+cdlinumber.replace("P","")+"/inscription/atf", function( data ) {
+				initializeText(data)
+            });
+      }
+
+      function initializeText(data){
+				$('#cdlitext').html(data.replaceAll("\n","<br>").replaceAll("&nbsp;"," "))							
+				$('#cdlitextcunei').html(data.replaceAll("\n","<br>"))
+				$('p').each(function() {
+					var $this = $(this);
+					result=""
+					splitted=$this.html().toString().replaceAll("&nbsp;"," ").split(" ")
+					if($this.attr('id').toString().includes("cunei")){
+						splittedcunei=""
+						for(word in splitted){
+							if(word!=""){
+								splittedcunei+="<span>"
+								wordsplit=splitted[word].replaceAll("{","-").replaceAll("}","-").split("-")
+								//console.log(wordsplit)
+								for(chara in wordsplit){
+									repcharanschars=wordsplit[chara].replaceAll(/[\[\],\.#!\?]/g,"")
+									repchara=repcharanschars.replaceAll("sz","š").replaceAll("1","₁").replaceAll("2","₂").replaceAll("3","₃").replaceAll("4","₄").replaceAll("5","₅").replaceAll("6","₆").replaceAll("7","₇").replaceAll("8","₈").replaceAll("9","₉").replaceAll("0","₀")
+									repchara=repchara.replaceAll("₁(","1(").replaceAll("₂(","2(").replaceAll("₃(","3(").replaceAll("₄(","4(").replaceAll("₅(","5(").replaceAll("₆(","6(").replaceAll("₇(","7(").replaceAll("₈(","8(").replaceAll("₉(","9(").replaceAll("₀(","0(")
+									repchara=repchara.toLowerCase()
+									//console.log(repchara)
+									if(repchara in nuolenna){
+										//console.log(repchara+" - "+nuolenna[repchara])
+										//if(wordsplit[chara].indexOf(repcharanschars)>0){
+										//	splittedcunei+=wordsplit[chara].substring(0,repcharanschars)
+										//}
+										splittedcunei+=nuolenna[repchara]
+										//if(
+									}else{
+										splittedcunei+=wordsplit[chara]
+									}											
+								}
+								splittedcunei+="</span><span>$</span>"
+							}
+						}
+						$this.html(splittedcunei);
+					}else{
+						for(word in splitted){
+							result+="<span>"+splitted[word]+"</span><span>$</span>"
+						}
+						$this.html(result);
+					}
+					loadRecogito($this.attr('id').toString())
+					$this.html($this.html().replaceAll("<span>$</span>","<span>&nbsp;</span>"))
+				});
+                
+				// bind to each span
+				$('p span').hover(
+					function() { $('#word').text($(this).css('background-color','#ffff66').text())
+						myatt=$(this).attr("title")
+						if (typeof myatt === 'undefined' || myatt === false) {
+							thetext=$(this).text().replaceAll(/[\[\],\.#!\?]/g,"")
+							if(thetext in wordinfocache){
+								$(this).attr("title",wordinfocache[thetext])
+							}else{
+								wordInformationFromWikidata($('#popuplanguage').val(),thetext,$(this))							
+							}
+							$(this).trigger('hover')
+						}							
+					},
+					function() { $('#word').text(''); $(this).css('background-color',''); }
+				);
+
+	}
+	 
+	function formatPopup(data,spanitem,word){
+		if(data.length==0){
+			spanitem.attr("title",word+" not found in Wikidata")
+			wordinfocache[word]=word+" not found in Wikidata"
+		}else{
+			thetitle="<ul>"
+			thetitletext={}
+			for(item in data){
+				thetitle+="<li><a href=\""+data[item]["l"]+"\">"+data[item]["lemma"]+"</a> ("+data[item]["lexcatlabel"]+") [<a href=\""+data[item]["senseval"]+"\">"+data[item]["senselabel"]+"</a>]</li>"
+				thetitletext[data[item]["lemma"]+" ("+data[item]["lexcatlabel"]+") ["+data[item]["senselabel"]+"] \n"]=true
+			}
+			thetitle+="</ul>"
+			console.log(thetitletext)
+			thetext=""
+			for(textpart in thetitletext){
+				thetext+=textpart
+			}
+			spanitem.attr("title",thetext.trim())
+			wordinfocache[word]=thetext
+		}	
+	}
+	      
+	function wordInformationFromWikidata(lang,word,spanitem){
+	if(!Array.isArray(lang)){
+		if(lang.includes(";")){
+			lang=lang.split(";")
+		}else{
+			lang=[lang]
+		}
+	}
+	//console.log(lang)
+        query=word	
+		limit=5
+		var sparql = `
+			  SELECT DISTINCT ?l ?lf ?senseval ?senselabel ?lexcatlabel ?lfgram ?gflabel (GROUP_CONCAT(DISTINCT ?lemmaa; separator=" / ") as ?lemma) WHERE {
+				BIND(LCASE("${query}"@${lang[0]}) as ?term)
+				{?lang wdt:P218 "${lang[0]}" . } UNION {?lang wdt:P219 "${lang[0]}" . }
+				?l rdf:type ontolex:LexicalEntry ;
+				   dct:language ?lang ;
+				   wikibase:lemma ?lemmaa;
+				   ontolex:lexicalForm ?lf .
+				OPTIONAL {?l wikibase:lexicalCategory ?lexcat . ?lexcat rdfs:label ?lexcatlabel . FILTER((LANG(?lexcatlabel))= "en") }
+				?lf ontolex:representation ?rep .
+				OPTIONAL {?lf wikibase:grammaticalFeature ?lfgram . ?lfgram rdfs:label ?gflabel . FILTER((LANG(?gflabel))= "en")}
+				?l ontolex:sense ?sense . ?sense wdt:P5137 ?senseval . OPTIONAL { ?senseval rdfs:label ?senselabel . FILTER((LANG(?senselabel))= "en") }        
+				FILTER(lcase(str(?rep))=lcase("${query}"))       
+			  }
+			  GROUP BY ?l ?lf ?senseval ?senselabel ?lexcatlabel ?lfgram ?gflabel
+			  ORDER BY ?l ?lfgram ?sense ?senselabel 
+			  LIMIT ${limit}
+			`;
+		  //sparql=sparql.replaceAll("${query}",word)
+		  wikidataUrl = 'https://query.wikidata.org/sparql'
+		  d3.sparql(wikidataUrl, sparql).then((data) => {
+		    //console.log(data);
+			if(data.length==0 && lang.length>1){
+				lang.shift()
+				wordInformationFromWikidata(lang,word,spanitem)
+			}else{
+				formatPopup(data,spanitem,word)
+			}
+		  })
+	}
+	  
+	  
+
+      function loadRecogito(paraid){
+        // Configuration options for the semantic tag widget
+        var widgetConfig = {
+          // List of data sources, strings for built-in connectors.
+          // Could support functions in the future, for more
+          // customization
+          dataSources: [
+            'Wikidata',
+			{ source: 'WikidataLexeme', name: 'WD Lexeme', wordformmode:false },
+			{ source: 'WikidataLexeme', name: 'WD Lexeme Regex', wordformmode:false, normpattern:/[\[\]\(\),\.#!\?]/g, targetpattern:""},
+			{ source: 'WikidataLexeme', name: 'WD Lexeme CB', wordformmode:false, normpattern:function(query){ query=query.replaceAll("š","sz"); query=query.replaceAll(/[\[\]\(\),\.#!\?]/g,""); console.log(query); return query}, targetpattern:""},
+			{ source: 'WikidataLexeme', name: 'WD Lexeme Wordform', wordformmode:true, normpattern:/[\[\]\(\),\.#!\?]/g},
+            { source: 'Wikidata', name: 'WD People', filter: 'Q5' }, // "human"
+            // { source: 'Wikidata', name: 'WD Works', filter: 'Q7725634' }, // "literary works"
+            'VIAF',
+            'JISC',
+            { source: 'DPLA', apiKey: 'e9fc393b69f416ca0b7d9c5117deafe7' },
+            'BNF'
+          ],
+          language: 'sux', // Search language (default 'en', 'auto' uses browser locale)
+          availableLanguages: [ 'sux','en', 'fr', 'es' ],
+          limit: 20,      // Search result page length (default 20)
+        };
+		if(paraid.toString().includes("cunei")){
+		        var r2 = Recogito.init({
+          content: paraid,
+      	  widgets: [
+            'COMMENT',
+            recogito.SemanticTags(widgetConfig)
+          ]
+        });
+		}else{
+		        var r = Recogito.init({
+          content: paraid,
+      	  widgets: [
+            'COMMENT',
+            recogito.SemanticTags(widgetConfig)
+          ]
+        });
+		}
+      }
+      window.onload =loadText()
+      </script></div>
