@@ -392,7 +392,7 @@ ElamiteSource.format = tag =>
 			//{ source: 'WikidataLexeme', name: 'WD Lexeme CB', wordformmode:false, normpattern:function(query){ query=query.replaceAll("š","sz"); query=query.replaceAll(/[\[\]\(\),\.#!\?]/g,""); console.log(query); return query}, targetpattern:""},
 			//{ source: 'WikidataLexeme', name: 'WD Lexeme Wordform', wordformmode:true, normpattern:/[\[\]\(\),\.#!\?]/g},
             { source: 'Wikidata', name: 'WD People', filter: 'Q5' }, // "human"
-			{ source: ElamiteSource, name: 'DBPediaSource' },
+			{ source: new ElamiteSource(), name: 'DBPediaSource' },
             // { source: 'Wikidata', name: 'WD Works', filter: 'Q7725634' }, // "literary works"
             'VIAF',
             'JISC',
