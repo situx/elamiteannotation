@@ -396,10 +396,10 @@ font-family: CuneiformComposite;
 			res["uri"]="https://situx.github.io/elamiteannotation/"+query.replaceAll(" ","")
 		}
 		console.log(res)
-		return res
+		return {"suggestions":res}
 	}
 	console.log("ElamiteSource: "+query+ " not found!")
-	return {};
+	return {"suggestions":{}};
   }
 
 }
