@@ -383,7 +383,7 @@ font-family: CuneiformComposite;
   }
 
   // Query string + global widget configuration (language, etc.)
-  query(query, globalConfig) {
+  async query(query, globalConfig) {
 	console.log("ElamiteSource: "+query)
 	console.log(senses)
 	if(query in senses){
