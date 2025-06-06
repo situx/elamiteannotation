@@ -385,6 +385,7 @@ font-family: CuneiformComposite;
   // Query string + global widget configuration (language, etc.)
   query(query, globalConfig) {
 	console.log("ElamiteSource: "+query)
+	console.log(senses)
 	if(query in senses){
 		console.log("ElamiteSource: "+query+ " found!")
 		res={"uri":senses[query]["sense"]["qid"],"label":senses[query]["sense"]["en"],"description":senses[query]["sense"]["en"]}
