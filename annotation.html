@@ -379,7 +379,7 @@ font-family: CuneiformComposite;
   // Configuration parameters provided 
   // to the widget during initialization
   constructor(widgetConfig) {
-    this.name = widgetConfig?.name || 'ElamiteSource'
+    this.name = widgetConfig?.name || 'Elamite'
   }
 
 
@@ -410,7 +410,7 @@ return {
 	if(query in senses){
 		console.log("ElamiteSource: "+query+ " found!")
 		console.log(senses[query])
-		reslist=[]
+		var reslist=[]
 		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,"taglabel":query}
 		for(sense in senses[query]["sense"]){
 			for(i=0;i<senses[query]["sense"]["de"].length;i++){
