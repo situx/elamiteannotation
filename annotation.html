@@ -7,6 +7,7 @@
 	<script src="nuolenna.js"></script><script src="recogito-semantic-tags.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/d3-sparql@2.0.0/build/d3-sparql.min.js"></script>
+	<script>var r,r2;</script>
 	<style>
 @font-face {
 font-family: Santakku;
@@ -131,13 +132,14 @@ font-family: CuneiformComposite;
         line-height:27px;
       }</style><script defer="defer" src="recogito-semantic-tags.min.js"></script></head><body><div id="content" class="plaintext"><h1>Elamite Annotation Test</h1>
 	  Load an Elamite text by selection <select id="selecttext" onchange="loadText()"></select>
-          <br/><button id="owntext" onclick="textArea()">Enter own Text in ATF</button><button id="edittext" onclick="editText()">Edit Text</button><button id="owntext" onclick="useText()">Save</button>
-	  <div>
+          <br/><span class="left"><button id="owntext" onclick="textArea()">Enter own Text in ATF</button><button id="edittext" onclick="editText()">Edit Text</button><button id="owntext" onclick="useText()">Save</button>
+		  <button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r.getAnnotations(),null,2),'json','anno')">Save Transliteration Annotations as JSON</button></span>
+		  <span class="right"><button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r2.getAnnotations(),null,2),'json','anno')">Save Unicode Cuneiform Annotations as JSON</button></span>
           <span id="popuplang" class="left">Popup Language:<select id="popuplanguage"><option value="sux">Sumerian</option><option value="akk;sux">Akkadian</option></select></span>
 	   <span id="fontchooser" class="right">Font: <select id="font" onchange="updateFont()">
 		  <option value="cuneiformcomposite">Cuneiform Composite (Cuneiform Composite)</option>
 		  <option value="akkadian">Akkadian (Akkadian)</option>
-                  <option value="assurbanipal">Neo-Assyrian (Assurbanipal)</option>
+          <option value="assurbanipal">Neo-Assyrian (Assurbanipal)</option>
 		  <option value="cuneiformna">Neo-Assyrian (CuneiformNA)</option>
 		  <option value="sinacherib">Neo-Assyrian (Sinacherib)</option>
 		  <option value="santakku">Cursive Old Babylonian (Santakku)</option>
@@ -222,6 +224,24 @@ font-family: CuneiformComposite;
 				initializeText(data)
             });
       }
+
+	function saveTextAsFile(tosave,fileext,filename)
+	{
+		var a = document.createElement('a');
+		a.style = "display: none";  
+		var blob= new Blob([tosave], {type:'text/plain'});
+		var url = window.URL.createObjectURL(blob);
+		var filename = filename+fileext;
+		a.href = url;
+		a.download = filename;
+		document.body.appendChild(a);
+		a.click();
+		setTimeout(function(){
+			document.body.removeChild(a);
+			window.URL.revokeObjectURL(url);  
+		}, 1000);
+	}
+
 
       function initializeText(data){
 				$('#cdlitext').html(data.replaceAll("\n","<br>").replaceAll("&nbsp;"," "))							
@@ -404,7 +424,7 @@ ElamiteSource.format = tag =>
           limit: 20,      // Search result page length (default 20)
         };
 		if(paraid.toString().includes("cunei")){
-		        var r2 = Recogito.init({
+		        r2 = Recogito.init({
           content: paraid,
       	  widgets: [
             'COMMENT',
@@ -412,7 +432,7 @@ ElamiteSource.format = tag =>
           ]
         });
 		}else{
-		        var r = Recogito.init({
+		        r = Recogito.init({
           content: paraid,
       	  widgets: [
             'COMMENT',
