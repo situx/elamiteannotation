@@ -411,7 +411,7 @@ return {
 		console.log("ElamiteSource: "+query+ " found!")
 		console.log(senses[query])
 		reslist=[]
-		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query}
+		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,"taglabel":query}
 		for(sense in senses[query]["sense"]){
 			for(i=0;i<senses[query]["sense"]["de"].length;i++){
 				if(i<senses[query]["sense"]["qid"].length){
@@ -422,8 +422,8 @@ return {
 			}
 		}
 		
-		console.log(res)
-		return [res]
+		console.log(reslist)
+		return reslist
 	}
 	console.log("ElamiteSource: "+query+ " not found!")
 	return [];
