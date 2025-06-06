@@ -389,7 +389,7 @@ font-family: CuneiformComposite;
 	if(query in senses){
 		console.log("ElamiteSource: "+query+ " found!")
 		console.log(senses[query])
-		res={"label":senses[query]["sense"]["en"],"description":senses[query]["sense"]["en"]}
+		var res={"label":senses[query]["sense"]["en"],"description":senses[query]["sense"]["en"]}
 		if("qid" in senses[query]["sense"]){
 			res["uri"]=senses[query]["sense"]["qid"]
 		}else{
