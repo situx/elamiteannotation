@@ -374,7 +374,7 @@ font-family: CuneiformComposite;
 	}
 	  
 	
-	class ElamiteSource {
+	class Elamite {
 
   // Configuration parameters provided 
   // to the widget during initialization
@@ -410,10 +410,16 @@ return {
 	if(query in senses){
 		console.log("ElamiteSource: "+query+ " found!")
 		console.log(senses[query])
-		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"senselabel":senses[query]["sense"]["en"],"description":senses[query]["sense"]["en"]}
-		
-		if("qid" in senses[query]["sense"]){
-			res["senseuri"]=senses[query]["sense"]["qid"]
+		reslist=[]
+		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query}
+		for(sense in senses[query]["sense"]){
+			for(i=0;i<senses[query]["sense"]["de"].length;i++){
+				if(i<senses[query]["sense"]["qid"].length){
+					reslist.append({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,
+					"senselabel":senses[query]["sense"]["de"][i],"senselabel":Object.keys(senses[query]["sense"]["qid"][i])[0],
+					"senseuri":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]],"sensetaglabel":Object.keys(senses[query]["sense"]["qid"][i])[0]+" ("+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]].replace("http://www.wikidata.org/entity/","")+")"})
+				}
+			}
 		}
 		
 		console.log(res)
@@ -425,10 +431,10 @@ return {
 
 }
 
-ElamiteSource.matches = tag =>
+Elamite.matches = tag =>
   true;
 
-ElamiteSource.format = tag =>
+Elamite.format = tag =>
   (tag.label?tag.label+"(":"")+tag.uri.substring(tag.uri.lastIndexOf('/') + 1)+(tag.label?")":"");
 
 
@@ -440,7 +446,7 @@ ElamiteSource.format = tag =>
           // Could support functions in the future, for more
           // customization
           dataSources: [
-	    ElamiteSource,
+	    Elamite,
             'Wikidata',
 			{ source: 'WikidataLexeme', name: 'WD Lexeme', wordformmode:false },
 			{ source: 'WikidataLexeme', name: 'WD Lexeme Regex', wordformmode:false, normpattern:/[\[\]\(\),\.#!\?]/g, targetpattern:""},
