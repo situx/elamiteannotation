@@ -233,7 +233,7 @@ font-family: CuneiformComposite;
 		a.style = "display: none";  
 		var blob= new Blob([tosave], {type:'text/plain'});
 		var url = window.URL.createObjectURL(blob);
-		var filename = filename+fileext;
+		var filename = filename+"."+fileext;
 		a.href = url;
 		a.download = filename;
 		document.body.appendChild(a);
