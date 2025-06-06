@@ -389,7 +389,12 @@ font-family: CuneiformComposite;
 	if(query in senses){
 		console.log("ElamiteSource: "+query+ " found!")
 		console.log(senses[query])
-		res={"uri":senses[query]["sense"]["qid"],"label":senses[query]["sense"]["en"],"description":senses[query]["sense"]["en"]}
+		res={"label":senses[query]["sense"]["en"],"description":senses[query]["sense"]["en"]}
+		if("qid" in senses[query]["sense"]){
+			res["uri"]=senses[query]["sense"]["qid"]
+		}else{
+			res["uri"]="https://situx.github.io/elamiteannotation/"+query.replaceAll(" ","")
+		}
 		console.log(res)
 		return res
 	}
