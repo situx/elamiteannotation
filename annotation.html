@@ -419,13 +419,13 @@ ElamiteSource.format = tag =>
 			{ source: 'WikidataLexeme', name: 'WD Lexeme Regex', wordformmode:false, normpattern:/[\[\]\(\),\.#!\?]/g, targetpattern:""},
 			//{ source: 'WikidataLexeme', name: 'WD Lexeme CB', wordformmode:false, normpattern:function(query){ query=query.replaceAll("š","sz"); query=query.replaceAll(/[\[\]\(\),\.#!\?]/g,""); console.log(query); return query}, targetpattern:""},
 			//{ source: 'WikidataLexeme', name: 'WD Lexeme Wordform', wordformmode:true, normpattern:/[\[\]\(\),\.#!\?]/g},
-            { source: 'Wikidata', name: 'WD People', filter: 'Q5' }, // "human"
+            //{ source: 'Wikidata', name: 'WD People', filter: 'Q5' }, // "human"
 			ElamiteSource,
             // { source: 'Wikidata', name: 'WD Works', filter: 'Q7725634' }, // "literary works"
-            'VIAF',
-            'JISC',
-            { source: 'DPLA', apiKey: 'e9fc393b69f416ca0b7d9c5117deafe7' },
-            'BNF'
+            //'VIAF',
+            //'JISC',
+            //{ source: 'DPLA', apiKey: 'e9fc393b69f416ca0b7d9c5117deafe7' },
+            //'BNF'
           ],
           language: 'sux', // Search language (default 'en', 'auto' uses browser locale)
           availableLanguages: [ 'sux','en', 'fr', 'es' ],
