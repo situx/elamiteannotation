@@ -130,11 +130,13 @@ font-family: CuneiformComposite;
         font-family:'Lato', sans-serif;
         font-size:17px;
         line-height:27px;
-      }</style><script defer="defer" src="recogito-semantic-tags.min.js"></script></head><body><div id="content" class="plaintext"><h1>Elamite Annotation Test</h1>
+      }</style><script defer="defer" src="recogito-semantic-tags.min.js"></script></head><body>
+		<div id="content" class="plaintext"><h1>Elamite Annotation Test</h1>
 	  Load an Elamite text by selection <select id="selecttext" onchange="loadText()"></select>
-          <br/><span class="left"><button id="owntext" onclick="textArea()">Enter own Text in ATF</button><button id="edittext" onclick="editText()">Edit Text</button><button id="owntext" onclick="useText()">Save</button>
-		  <button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r.getAnnotations(),null,2),'json','anno')">Save Transliteration Annotations as JSON</button></span>
-		  <span class="right"><button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r2.getAnnotations(),null,2),'json','anno')">Save Unicode Cuneiform Annotations as JSON</button></span>
+          <br/><span class="left"><button id="owntext" onclick="textArea()">Enter own Text in ATF</button>
+		  <button id="edittext" onclick="editText()">Edit Text</button><button id="owntext" onclick="useText()">Save</button>
+		  <button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r.getAnnotations(),null,2),'json',document.getElementById('selecttext').options[document.getElementById('selecttext').selectedIndex].text+'_translit')">Save Transliteration Annotations as JSON</button></span>
+		  <span class="right"><button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r2.getAnnotations(),null,2),'json',document.getElementById('selecttext').options[document.getElementById('selecttext').selectedIndex].text+'_cunei')">Save Unicode Cuneiform Annotations as JSON</button></span>
           <span id="popuplang" class="left">Popup Language:<select id="popuplanguage"><option value="sux">Sumerian</option><option value="akk;sux">Akkadian</option></select></span>
 	   <span id="fontchooser" class="right">Font: <select id="font" onchange="updateFont()">
 		  <option value="cuneiformcomposite">Cuneiform Composite (Cuneiform Composite)</option>
