@@ -7,7 +7,7 @@
 	<script src="nuolenna.js"></script><script src="recogito-semantic-tags.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/d3-sparql@2.0.0/build/d3-sparql.min.js"></script>
-	<script>var r,r2;</script>
+	<script>var r,r2,annotationnamespace="https://situx.github.io/elamiteannotation/";</script>
 	<style>
 @font-face {
 font-family: Santakku;
@@ -382,6 +382,27 @@ font-family: CuneiformComposite;
     this.name = widgetConfig?.name || 'ElamiteSource'
   }
 
+
+
+/*
+return { 
+          uri: result.lf?.value,
+		  uri2: (this.config?.wordformmode ? (result.lfgram?.value ?? "") : (result.senseval?.value ?? "")),
+		  senseuri: result.senseval?.value ?? "",
+		  senselabel: result.senselabel?.value ?? "",
+		  sensetaglabel: result.senselabel?.value ? result.senselabel?.value+"("+result.senseval?.value.substring(result.senseval?.value.indexOf('entity/Q') + 7)+")" : "",
+		  sensedescription: (result.senselabel?.value ?? "")+" "+("("+result.senseval?.value+")" ?? ""),
+		  description2: (this.config?.wordformmode ? (result.gflabel?.value ?? "")+" "+("("+(result.lfgram?.value ?? "")+")" ?? ""): (result.senselabel?.value ?? "")+" "+("("+result.senseval?.value+")" ?? "")),
+		  wordformlabel: (result.gflabel?.value ?? ""),
+		  wordformuri: (result.lfgram?.value ?? ""),
+		  wordformmode: (this.config?.wordformmode ?? false),
+          label: (result.lemma?.value ?? ""), 
+		  label2: (this.config?.wordformmode ? (result.gflabel?.value ?? "") : (result.senselabel?.value ?? "")),
+		  taglabel: result.lemma?.value ? result.lemma?.value+"("+result.lf?.value.substring(result.lf?.value.indexOf('entity/Q') + 7)+")" : result.lf?.value.substring(result.lf?.value.indexOf('entity/Q') + 7),
+          description: "Word "+(result.lemma?.value ?? "")+(result.gflabel?.value ? " in "+result.gflabel?.value : "")+" with sense "+(result.senselabel?.value ?? "")
+        };
+*/
+
   // Query string + global widget configuration (language, etc.)
   async query(query, globalConfig) {
 	console.log("ElamiteSource: "+query)
@@ -389,12 +410,12 @@ font-family: CuneiformComposite;
 	if(query in senses){
 		console.log("ElamiteSource: "+query+ " found!")
 		console.log(senses[query])
-		var res={"label":senses[query]["sense"]["en"],"description":senses[query]["sense"]["en"]}
+		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"senselabel":senses[query]["sense"]["en"],"description":senses[query]["sense"]["en"]}
+		
 		if("qid" in senses[query]["sense"]){
-			res["uri"]=senses[query]["sense"]["qid"]
-		}else{
-			res["uri"]="https://situx.github.io/elamiteannotation/"+query.replaceAll(" ","")
+			res["senseuri"]=senses[query]["sense"]["qid"]
 		}
+		
 		console.log(res)
 		return [res]
 	}
@@ -404,13 +425,12 @@ font-family: CuneiformComposite;
 
 }
 
-// Entities from my datasource all start with www.mysource.org/entity
 ElamiteSource.matches = tag =>
   true;
 
-// Format as 'my:<ID>'
 ElamiteSource.format = tag =>
-  tag;
+  (tag.label?tag.label+"(":"")+tag.uri.substring(tag.uri.lastIndexOf('/') + 1)+(tag.label?")":"");
+
 
 
       function loadRecogito(paraid){
