@@ -413,11 +413,14 @@ return {
 		var reslist=[]
 		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,"taglabel":query}
 		if("sense" in senses[query]){
-			for(var i=0;i<senses[query]["sense"]["de"].length();i++){
-				if(i<senses[query]["sense"]["qid"].length()){
+			for(var i=0;i<senses[query]["sense"]["de"].length;i++){
+				if("qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
 					reslist.append({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,
-					"senselabel":senses[query]["sense"]["de"][i],"senselabel":Object.keys(senses[query]["sense"]["qid"][i])[0],
+					"senselabel":Object.keys(senses[query]["sense"]["qid"][i])[0],
 					"senseuri":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]],"sensetaglabel":Object.keys(senses[query]["sense"]["qid"][i])[0]+" ("+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]].replace("http://www.wikidata.org/entity/","")+")"})
+				}else{
+					reslist.append({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,
+					"senselabel":senses[query]["sense"]["de"][i]})
 				}
 			}
 		}
