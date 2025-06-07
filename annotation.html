@@ -334,7 +334,7 @@ font-family: CuneiformComposite;
 	function wordInformationFromJSON(lang,word,spanitem){
 		var reslist=[]
 		if(word in senses){
-			if("sense" in senses[word]){
+			if("sense" in senses[word] && "de" in senses[word]["sense"]){
 				for(var i=0;i<senses[word]["sense"]["de"].length;i++){
 					if("qid" in senses[word]["sense"] && i<senses[word]["sense"]["qid"].length){
 						reslist.push({"l":"https://situx.github.io/elamiteannotation/"+word.replaceAll(" ",""),
@@ -344,6 +344,7 @@ font-family: CuneiformComposite;
 				}
 			}
 		}
+		console.log(reslist)
 		formatPopup(reslist,spanitem,word)
 	}
 	      
