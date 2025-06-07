@@ -137,7 +137,7 @@ font-family: CuneiformComposite;
 		  <button id="edittext" onclick="editText()">Edit Text</button><button id="owntext" onclick="useText()">Save</button>
 		  <button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r.getAnnotations(),null,2),'json',document.getElementById('selecttext').options[document.getElementById('selecttext').selectedIndex].text+'_translit')">Save Transliteration Annotations as JSON</button></span>
 		  <span class="right"><button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r2.getAnnotations(),null,2),'json',document.getElementById('selecttext').options[document.getElementById('selecttext').selectedIndex].text+'_cunei')">Save Unicode Cuneiform Annotations as JSON</button></span>
-          <span id="popuplang" class="left">Popup Language:<select id="popuplanguage"><option value="sux">Sumerian</option><option value="akk;sux">Akkadian</option></select></span>
+          <span id="popuplang" class="left">Popup Language:<select id="popuplanguage"><option value="Elamite">Elamite</option><option value="sux">Sumerian</option><option value="akk;sux">Akkadian</option></select></span>
 	   <span id="fontchooser" class="right">Font: <select id="font" onchange="updateFont()">
 		  <option value="cuneiformcomposite">Cuneiform Composite (Cuneiform Composite)</option>
 		  <option value="akkadian">Akkadian (Akkadian)</option>
@@ -311,8 +311,8 @@ font-family: CuneiformComposite;
 	 
 	function formatPopup(data,spanitem,word){
 		if(data.length==0){
-			spanitem.attr("title",word+" not found in Wikidata")
-			wordinfocache[word]=word+" not found in Wikidata"
+			spanitem.attr("title",word+" not found!")
+			wordinfocache[word]=word+" not found!"
 		}else{
 			thetitle="<ul>"
 			thetitletext={}
@@ -330,16 +330,37 @@ font-family: CuneiformComposite;
 			wordinfocache[word]=thetext
 		}	
 	}
+
+	function wordInformationFromJSON(lang,word,spanitem){
+		var reslist=[]
+		if(word in senses){
+			if("sense" in senses[word]){
+
+				for(var i=0;i<senses[query]["sense"]["de"].length;i++){
+					if("qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
+						reslist.push({"l":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),
+						"lemma":word,"lexcatlabel":"noun","senseval":Object.keys(senses[query]["sense"]["qid"][i])[0],
+						"senselabel":enses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]})
+					}
+				}
+			}
+		}
+		formatPopup(reslist,spanitem,word)
+	}
 	      
 	function wordInformationFromWikidata(lang,word,spanitem){
-	if(!Array.isArray(lang)){
-		if(lang.includes(";")){
-			lang=lang.split(";")
-		}else{
-			lang=[lang]
+		if(lang=="Elamite"){
+			wordInformationFromJSON(lang,word,spanitem)
+			return
 		}
-	}
-	//console.log(lang)
+		if(!Array.isArray(lang)){
+			if(lang.includes(";")){
+				lang=lang.split(";")
+			}else{
+				lang=[lang]
+			}
+		}
+		//console.log(lang)
         query=word	
 		limit=5
 		var sparql = `
