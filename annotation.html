@@ -412,7 +412,7 @@ return {
 		console.log(senses[query])
 		var reslist=[]
 		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,"taglabel":query}
-		for(sense in senses[query]["sense"]){
+		if("sense" in senses[query]){
 			for(i=0;i<senses[query]["sense"]["de"].length;i++){
 				if(i<senses[query]["sense"]["qid"].length){
 					reslist.append({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,
