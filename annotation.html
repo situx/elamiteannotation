@@ -417,7 +417,7 @@ return {
 				if("qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
 					reslist.push({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),
 					"label":query,"taglabel":query,
-					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"][0])[0]]+") ",
+					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
 					"sensedescription":query+" with Sense "+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
 					"senselabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]],
 					"senseuri":Object.keys(senses[query]["sense"]["qid"][i])[0],
