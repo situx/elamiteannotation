@@ -418,7 +418,7 @@ return {
 					reslist.push({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,"taglabel":query,
 					"senselabel":Object.keys(senses[query]["sense"]["qid"][i])[0],
 					"senseuri":Object.keys(senses[query]["sense"]["qid"][i])[0],
-					"sensetaglabel":Object.keys(senses[query]["sense"]["qid"][i])[0]+" ("+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]].replace("http://www.wikidata.org/entity/","")+")"})
+					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
 				}else{
 					reslist.push({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,
 					"senselabel":senses[query]["sense"]["de"][i]})
