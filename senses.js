@@ -7541,6 +7541,11 @@ var senses={
       "de": [
         "Gastwart",
         "Reisebegleiter"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q98949102": "travel companion"
+        }
       ]
     },
     "reference": {
@@ -7557,6 +7562,11 @@ var senses={
       "de": [
         "Gastwart",
         "Reisebegleiter"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q98949102": "travel companion"
+        }
       ]
     },
     "reference": {
@@ -7573,6 +7583,11 @@ var senses={
       "de": [
         "Kunsthandwerker",
         "K\u00fcnstler"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q1294787": "artisan"
+        }
       ]
     },
     "reference": {
@@ -7589,6 +7604,11 @@ var senses={
       "de": [
         "Kunsthandwerker",
         "K\u00fcnstler"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q1294787": "artisan"
+        }
       ]
     },
     "reference": {
@@ -8278,6 +8298,12 @@ var senses={
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "1"
+    },
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1389112",
+      "word": "par\u00fb",
+      "lid_label": "par\u00fb (L1389112)"
     }
   },
   "pa-ru.lg.ba-tu4-ra": {
@@ -8560,7 +8586,13 @@ var senses={
       "title": "Hinz & Koch",
       "volumenumber": "1"
     },
-    "period": "nE"
+    "period": "nE",
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1379021",
+      "word": "pa\u0161\u012b\u0161u",
+      "lid_label": "pa\u0161\u012b\u0161u (L1379021)"
+    }
   },
   "ba-\u0161i-\u0161u": {
     "wordtype": {
@@ -8579,6 +8611,12 @@ var senses={
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "1"
+    },
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1379021",
+      "word": "pa\u0161\u012b\u0161u",
+      "lid_label": "pa\u0161\u012b\u0161u (L1379021)"
     }
   },
   "ba-\u0161i-\u0161u.GAL": {
@@ -8599,7 +8637,13 @@ var senses={
       "title": "Hinz & Koch",
       "volumenumber": "1"
     },
-    "period": "mE"
+    "period": "mE",
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1379021",
+      "word": "pa\u0161\u012b\u0161u; rab\u00fb",
+      "lid_label": "pa\u0161\u012b\u0161u (L1379021)"
+    }
   },
   "GAM.pa-\u0161i-\u0161um.ra-[b]u.lg": {
     "wordtype": {
@@ -8618,6 +8662,12 @@ var senses={
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "1"
+    },
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1379021",
+      "word": "pa\u0161\u012b\u0161u; rab\u00fb",
+      "lid_label": "pa\u0161\u012b\u0161u (L1379021)"
     }
   },
   "GI\u0160.ba-\u0161u-ur": {
@@ -9171,6 +9221,11 @@ var senses={
     "sense": {
       "de": [
         "sein Gegenwert, seine Verg\u00fctung, die Zahlung daf\u00fcr"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q850210": "revenue"
+        }
       ]
     },
     "reference": {
@@ -9187,6 +9242,11 @@ var senses={
       "de": [
         "Gegenwert",
         "Verg\u00fctung"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q850210": "revenue"
+        }
       ]
     },
     "reference": {
@@ -9202,6 +9262,11 @@ var senses={
     "sense": {
       "de": [
         "sein Gegenwert"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q850210": "revenue"
+        }
       ]
     },
     "reference": {
@@ -9217,6 +9282,11 @@ var senses={
     "sense": {
       "de": [
         "Gegenwert"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q850210": "revenue"
+        }
       ]
     },
     "reference": {
@@ -9267,6 +9337,11 @@ var senses={
     "sense": {
       "de": [
         "Gegenwert, Verg\u00fctung, Zahlung"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q850210": "revenue"
+        }
       ]
     },
     "reference": {
@@ -9282,6 +9357,11 @@ var senses={
     "sense": {
       "de": [
         "sein Gegenwert, die Verg\u00fctung, Zahlung daf\u00fcr"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q850210": "revenue"
+        }
       ]
     },
     "reference": {
@@ -9387,6 +9467,11 @@ var senses={
     "sense": {
       "de": [
         "Kornspeicher"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q114768": "granary"
+        }
       ]
     },
     "reference": {
@@ -9666,6 +9751,11 @@ var senses={
       ],
       "en": [
         "renewal"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q60818325": "renewal"
+        }
       ]
     },
     "reference": {
@@ -9681,6 +9771,11 @@ var senses={
     "sense": {
       "de": [
         "als Erneuerung"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q60818325": "renewal"
+        }
       ]
     },
     "reference": {
@@ -9696,6 +9791,11 @@ var senses={
     "sense": {
       "de": [
         "in die Erneuerung"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q60818325": "renewal"
+        }
       ]
     },
     "reference": {
@@ -10398,6 +10498,11 @@ var senses={
       ],
       "en": [
         "ear"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q7362": "ear"
+        }
       ]
     },
     "reference": {
@@ -10429,6 +10534,11 @@ var senses={
       ],
       "en": [
         "year"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q577": "year"
+        }
       ]
     },
     "reference": {
@@ -10529,6 +10639,11 @@ var senses={
     "sense": {
       "de": [
         "Erneuerung"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q60818325": "renewal"
+        }
       ]
     },
     "reference": {
@@ -10559,6 +10674,11 @@ var senses={
     "sense": {
       "de": [
         "Erneuerung"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q60818325": "renewal"
+        }
       ]
     },
     "reference": {
@@ -10637,7 +10757,12 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der scheut(?)",
+        "\"ami\" (Scheil)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -10651,6 +10776,9 @@ var senses={
     "sense": {
       "de": [
         "Schrifttafel"
+      ],
+      "en": [
+        "tablet, document"
       ],
       "qid": [
         {
@@ -10707,6 +10835,9 @@ var senses={
       "de": [
         "Schrifttafel",
         "Gedenktafel"
+      ],
+      "en": [
+        "tablet, document"
       ]
     },
     "reference": {
@@ -10793,6 +10924,9 @@ var senses={
       "de": [
         "Schaffen",
         "Wirken"
+      ],
+      "en": [
+        "create, creation"
       ]
     },
     "reference": {
@@ -10808,6 +10942,9 @@ var senses={
       "de": [
         "Begr\u00fcnder",
         "Stifter"
+      ],
+      "en": [
+        "creator"
       ],
       "qid": [
         {
@@ -10901,7 +11038,7 @@ var senses={
     },
     "sense": {
       "de": [
-        "Eilbote"
+        "Eilbote(dienst)"
       ],
       "qid": [
         {
@@ -10919,7 +11056,12 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Mehl",
+        "Mehltransport"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -10950,7 +11092,17 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Obstart",
+        "Datteln"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q3314483": "fruit"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -10963,7 +11115,8 @@ var senses={
     },
     "sense": {
       "de": [
-        "Obstart"
+        "Obstart",
+        "Datteln"
       ],
       "qid": [
         {
@@ -10999,6 +11152,7 @@ var senses={
     },
     "sense": {
       "de": [
+        "Obstart",
         "Datteln"
       ],
       "qid": [
@@ -11017,7 +11171,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Leute aus Piri\u0161ti?"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -11028,7 +11186,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Leute aus p\u00edr-ma-za"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -11245,7 +11407,16 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gebieter"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q1097498": "ruler"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -11276,7 +11447,16 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gebieter"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q1097498": "ruler"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -11289,8 +11469,12 @@ var senses={
     },
     "sense": {
       "de": [
-        "Vorarbeiter",
-        "Polier"
+        "Gebieter"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q1097498": "ruler"
+        }
       ]
     },
     "reference": {
@@ -11303,7 +11487,16 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gebieter"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q1097498": "ruler"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -11314,7 +11507,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "von bester Qualit\u00e4t"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -11364,7 +11561,12 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Schleifer",
+        "Polierer"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -15232,6 +15434,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292250": "Turnabazi\u0161"
+        }
       ]
     },
     "reference": {
@@ -15247,6 +15454,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292250": "Turnabazi\u0161"
+        }
       ]
     },
     "reference": {
@@ -15262,6 +15474,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292250": "Turnabazi\u0161"
+        }
       ]
     },
     "reference": {
@@ -15277,6 +15494,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292250": "Turnabazi\u0161"
+        }
       ]
     },
     "reference": {
@@ -18754,6 +18976,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -18769,6 +18996,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -18784,6 +19016,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -19761,6 +19998,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -19829,6 +20071,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -19844,6 +20091,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20007,6 +20259,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20022,6 +20279,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20037,6 +20299,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20052,6 +20319,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20067,6 +20339,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20082,6 +20359,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20097,6 +20379,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20112,6 +20399,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20253,6 +20545,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20268,6 +20565,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20283,6 +20585,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20822,6 +21129,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -20837,6 +21149,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291964": "Turmar"
+        }
       ]
     },
     "reference": {
@@ -22391,6 +22708,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -22406,6 +22728,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -22421,6 +22748,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -22436,6 +22768,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -22451,6 +22788,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -22466,6 +22808,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -22481,6 +22828,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -22533,6 +22885,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292108": "Karmabata\u0161"
+        }
       ]
     },
     "reference": {
@@ -22548,6 +22905,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292108": "Karmabata\u0161"
+        }
       ]
     },
     "reference": {
@@ -24279,6 +24641,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -24294,6 +24661,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -24309,6 +24681,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -24324,6 +24701,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -24339,6 +24721,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292375": "Karba\u0161iya\u0161"
+        }
       ]
     },
     "reference": {
@@ -24455,6 +24842,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292108": "Karmabata\u0161"
+        }
       ]
     },
     "reference": {
@@ -24470,6 +24862,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292108": "Karmabata\u0161"
+        }
       ]
     },
     "reference": {
@@ -24485,6 +24882,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292108": "Karmabata\u0161"
+        }
       ]
     },
     "reference": {
@@ -24500,6 +24902,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292108": "Karmabata\u0161"
+        }
       ]
     },
     "reference": {
@@ -24512,7 +24919,13 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292108": "Karmabata\u0161"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "1"
@@ -26115,6 +26528,11 @@ var senses={
     "sense": {
       "de": [
         "Haufen"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q2710737": "pile"
+        }
       ]
     },
     "reference": {
@@ -26722,6 +27140,11 @@ var senses={
     "sense": {
       "de": [
         "Anwesenheit"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q24255051": "presence"
+        }
       ]
     },
     "reference": {
@@ -27326,7 +27749,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "magischer Schutzbann"
+        "magischer Schutzbann, Numen"
+      ],
+      "en": [
+        "divine protection"
       ],
       "qid": [
         {
@@ -27346,7 +27772,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "magischer Schutzbann"
+        "magischer Schutzbann, Numen"
+      ],
+      "en": [
+        "divine protection"
       ],
       "qid": [
         {
@@ -27366,7 +27795,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "magischer Schutzbann"
+        "magischer Schutzbann verleihender"
+      ],
+      "en": [
+        "divine protection"
       ],
       "qid": [
         {
@@ -27386,7 +27818,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "Bann"
+        "magischer Schutzbann, Numen"
+      ],
+      "en": [
+        "divine protection"
       ]
     },
     "reference": {
@@ -27399,7 +27834,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "DN"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "1"
@@ -27410,7 +27849,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "magischer Schutzbann, Numen"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "1"
@@ -27467,7 +27910,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "magischer Schutzbann verleihender"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": ""
@@ -28081,6 +28528,11 @@ var senses={
         "Friede",
         "Eintracht",
         "Harmonie"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q454": "piece"
+        }
       ]
     },
     "reference": {
@@ -28712,6 +29164,11 @@ var senses={
     "sense": {
       "de": [
         "Wandverkleidung"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q116970821": "wall paneling"
+        }
       ]
     },
     "reference": {
@@ -32211,6 +32668,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32226,6 +32688,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32241,6 +32708,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32256,6 +32728,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32271,6 +32748,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32286,6 +32768,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32301,6 +32788,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32316,6 +32808,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32331,6 +32828,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32346,6 +32848,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32361,6 +32868,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32396,6 +32908,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32411,6 +32928,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32426,6 +32948,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32441,6 +32968,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32456,6 +32988,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32471,6 +33008,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -32680,6 +33222,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -32695,6 +33242,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -32710,6 +33262,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -32725,6 +33282,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -34122,6 +34684,11 @@ var senses={
     "sense": {
       "de": [
         "11. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291936": "Samiyama\u0161"
+        }
       ]
     },
     "reference": {
@@ -34198,6 +34765,11 @@ var senses={
     "sense": {
       "de": [
         "11. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291936": "Samiyama\u0161"
+        }
       ]
     },
     "reference": {
@@ -34213,6 +34785,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34228,6 +34805,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34243,6 +34825,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34258,6 +34845,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34273,6 +34865,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34288,6 +34885,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34303,6 +34905,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34318,6 +34925,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34333,6 +34945,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34348,6 +34965,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34363,6 +34985,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34378,6 +35005,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34393,6 +35025,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -34408,6 +35045,11 @@ var senses={
     "sense": {
       "de": [
         "10. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291873": "Hanamaka\u0161"
+        }
       ]
     },
     "reference": {
@@ -35557,6 +36199,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35572,6 +36219,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35587,6 +36239,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35602,6 +36259,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35617,6 +36279,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35632,6 +36299,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35647,6 +36319,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35662,6 +36339,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35677,6 +36359,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -35692,6 +36379,11 @@ var senses={
     "sense": {
       "de": [
         "9. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291833": "Ha\u0161iyati\u0161"
+        }
       ]
     },
     "reference": {
@@ -36663,6 +37355,11 @@ var senses={
     "sense": {
       "de": [
         "1. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291953": "Hadukanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -38215,7 +38912,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "magischer Schutzbann, Numen"
+      ],
+      "en": [
+        "divine protection"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "1"
@@ -40409,6 +41113,11 @@ var senses={
     "sense": {
       "de": [
         "Verfertiger"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q13235160": "manufacturer"
+        }
       ]
     },
     "reference": {
@@ -44423,6 +45132,9 @@ var senses={
       "de": [
         "Riegel"
       ],
+      "en": [
+        "unknown"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q2477852": "latch"
@@ -44439,7 +45151,19 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "das Reich"
+      ],
+      "en": [
+        "kingdom"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -44454,6 +45178,9 @@ var senses={
         "Pflock",
         "Stange",
         "Mei\u00dfel"
+      ],
+      "en": [
+        "clay nail"
       ]
     },
     "reference": {
@@ -44465,10 +45192,19 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Pflock",
+        "Stange",
+        "Mei\u00dfel"
+      ],
+      "en": [
+        "clay nail"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     }
   },
   "li-gi-e": {
@@ -44478,6 +45214,9 @@ var senses={
     "sense": {
       "de": [
         "Pflock"
+      ],
+      "en": [
+        "clay nail"
       ]
     },
     "reference": {
@@ -44490,7 +45229,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "unbekannter Gegenstand, vielleicht aus Stein"
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -44504,6 +45250,9 @@ var senses={
     "sense": {
       "de": [
         "Dankbarkeit"
+      ],
+      "en": [
+        "unknown"
       ],
       "qid": [
         {
@@ -44524,6 +45273,9 @@ var senses={
     "sense": {
       "de": [
         "Feuer"
+      ],
+      "en": [
+        "fire"
       ],
       "qid": [
         {
@@ -44546,6 +45298,9 @@ var senses={
         "Gabe",
         "Geschenk"
       ],
+      "en": [
+        "gift"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q184303": "gift"
@@ -44559,34 +45314,44 @@ var senses={
     "period": "nE"
   },
   "hh.li-in.hu-ut-ti-ip": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "verb",
     "sense": {
       "de": [
         "lin-Macher"
+      ],
+      "en": [
+        "to make"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q11398090": "creation"
+        }
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
-    },
-    "period": "achE"
+    }
   },
   "h.li-in?.hu?-ut?-ti?-ra": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "verb",
     "sense": {
       "de": [
         "Kanalgr\u00e4ber"
+      ],
+      "en": [
+        "to make"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q11398090": "creation"
+        }
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
-    },
-    "period": "achE"
+    }
   },
   "li-in-ra": {
     "wordtype": {
@@ -44595,6 +45360,14 @@ var senses={
     "sense": {
       "de": [
         "ein Gebender"
+      ],
+      "en": [
+        "shooter"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q2252077": "shooting"
+        }
       ]
     },
     "reference": {
@@ -44610,6 +45383,14 @@ var senses={
     "sense": {
       "de": [
         "ein Gebender"
+      ],
+      "en": [
+        "shooter"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q2252077": "shooting"
+        }
       ]
     },
     "reference": {
@@ -44625,6 +45406,9 @@ var senses={
     "sense": {
       "de": [
         "Gebende"
+      ],
+      "en": [
+        "uknown"
       ]
     },
     "reference": {
@@ -44643,6 +45427,9 @@ var senses={
         "Kleid",
         "Kleidungsst\u00fccke"
       ],
+      "en": [
+        "garment"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q11460": "garment"
@@ -44660,7 +45447,15 @@ var senses={
     },
     "sense": {
       "de": [
-        "Gewandwart"
+        "Gewandwart, K\u00e4mmerer "
+      ],
+      "en": [
+        "to bear"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q11640447": "carrying"
+        }
       ]
     },
     "reference": {
@@ -44670,34 +45465,44 @@ var senses={
     "period": "achE"
   },
   "hh.li-ip-te.ku-ku-ti-ip": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "noun",
     "sense": {
       "de": [
-        "Gewandwart"
+        "Gewandwart, K\u00e4mmerer"
+      ],
+      "en": [
+        "to bear"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q11640447": "carrying"
+        }
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": "2"
-    },
-    "period": "achE"
+      "volumenumber": ""
+    }
   },
   "hh.li-ip-te.ku-ti-ra": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "noun",
     "sense": {
       "de": [
-        "Gewandwart"
+        "Gewandwart, K\u00e4mmerer"
+      ],
+      "en": [
+        "to bear"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q11640447": "carrying"
+        }
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": "2"
-    },
-    "period": "achE"
+      "volumenumber": ""
+    }
   },
   "li-ir-ra": {
     "wordtype": {
@@ -44706,6 +45511,14 @@ var senses={
     "sense": {
       "de": [
         "ein Gebender"
+      ],
+      "en": [
+        "a giver"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q16509017": "giving"
+        }
       ]
     },
     "reference": {
@@ -44721,6 +45534,14 @@ var senses={
     "sense": {
       "de": [
         "Stiftung"
+      ],
+      "en": [
+        "foundation"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q157031": "foundation"
+        }
       ]
     },
     "reference": {
@@ -44737,9 +45558,12 @@ var senses={
       "de": [
         "das Reich"
       ],
+      "en": [
+        "kingdom"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q48349": "empire"
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
         }
       ]
     },
@@ -44756,6 +45580,14 @@ var senses={
     "sense": {
       "de": [
         "Stiftung"
+      ],
+      "en": [
+        "foundation"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q157031": "foundation"
+        }
       ]
     },
     "reference": {
@@ -44771,6 +45603,9 @@ var senses={
     "sense": {
       "de": [
         "Dankopfer"
+      ],
+      "en": [
+        "unknown"
       ],
       "qid": [
         {
@@ -44792,6 +45627,9 @@ var senses={
       "de": [
         "Kleidungsst\u00fcck"
       ],
+      "en": [
+        "garment"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q11460": "garment"
@@ -44812,9 +45650,12 @@ var senses={
       "de": [
         "des Reiches"
       ],
+      "en": [
+        "unknown"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q48349": "empire"
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
         }
       ]
     },
@@ -44830,7 +45671,15 @@ var senses={
     },
     "sense": {
       "de": [
-        "meine Gabe"
+        "meine Gabe, Stiftung von mir(?), \u00fcbertragen mein Reich (= das mir Gegebene)"
+      ],
+      "en": [
+        "kingdom"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
+        }
       ]
     },
     "reference": {
@@ -44846,9 +45695,12 @@ var senses={
       "de": [
         "mein Reich"
       ],
+      "en": [
+        "kingdom"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q48349": "empire"
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
         }
       ]
     },
@@ -44865,9 +45717,12 @@ var senses={
       "de": [
         "meines Reiches"
       ],
+      "en": [
+        "kingdom"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q48349": "empire"
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
         }
       ]
     },
@@ -44885,9 +45740,12 @@ var senses={
       "de": [
         "mein Reich"
       ],
+      "en": [
+        "kingdom"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q48349": "empire"
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
         }
       ]
     },
@@ -44919,6 +45777,9 @@ var senses={
     "sense": {
       "de": [
         "meine Stiftung"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
@@ -44935,9 +45796,12 @@ var senses={
       "de": [
         "meines Reiches"
       ],
+      "en": [
+        "kingdom"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q48349": "empire"
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
         }
       ]
     },
@@ -44955,6 +45819,9 @@ var senses={
       "de": [
         "Bauern"
       ],
+      "en": [
+        "some type of worker"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q131512": "farmer"
@@ -44968,12 +45835,10 @@ var senses={
     "period": "achE"
   },
   "li-li-ra": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "verb",
     "sense": {
       "de": [
-        "Aufbrechender"
+        "ein Aufbrechender, Fortziehender"
       ]
     },
     "reference": {
@@ -44988,7 +45853,17 @@ var senses={
     },
     "sense": {
       "de": [
-        "Gebrauchsgegenstand"
+        "Gebrauchsgegenstand",
+        "Facher"
+      ],
+      "en": [
+        "article of daily use",
+        "fan"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q193220": "hand fan"
+        }
       ]
     },
     "reference": {
@@ -44998,16 +45873,17 @@ var senses={
     "period": "nE"
   },
   "li-mi-in": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "verb",
     "sense": {
       "de": [
         "Feuer"
       ],
+      "en": [
+        "burning"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q3196": "fire"
+          "http://www.wikidata.org/entity/Q133235": "combustion"
         }
       ]
     },
@@ -45018,16 +45894,17 @@ var senses={
     "period": "mE"
   },
   "li-mi-in-ra": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "verb",
     "sense": {
       "de": [
         "der des Feuers"
       ],
+      "en": [
+        "burning"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q3196": "fire"
+          "http://www.wikidata.org/entity/Q133235": "combustion"
         }
       ]
     },
@@ -45045,6 +45922,9 @@ var senses={
       "de": [
         "Kante",
         "Rand"
+      ],
+      "en": [
+        "edge, border"
       ],
       "qid": [
         {
@@ -45066,6 +45946,14 @@ var senses={
       "de": [
         "Gabe",
         "Stiftung"
+      ],
+      "en": [
+        "gift"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q184303": "gift"
+        }
       ]
     },
     "reference": {
@@ -45075,12 +45963,18 @@ var senses={
     "period": "mE"
   },
   "li-pi-in-ra": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "verb",
     "sense": {
       "de": [
         "ein sich N\u00e4hernder"
+      ],
+      "en": [
+        "one who is approaching"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q120077303": "approaching"
+        }
       ]
     },
     "reference": {
@@ -45093,7 +45987,19 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "das Reich"
+      ],
+      "en": [
+        "kingdom"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q417175": "kingdom"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -45107,6 +46013,14 @@ var senses={
     "sense": {
       "de": [
         "Gebender"
+      ],
+      "en": [
+        "giver"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q16509017": "giving"
+        }
       ]
     },
     "reference": {
@@ -45122,6 +46036,9 @@ var senses={
     "sense": {
       "de": [
         "Holzriegel"
+      ],
+      "en": [
+        "unknown"
       ],
       "qid": [
         {
@@ -45143,6 +46060,9 @@ var senses={
       "de": [
         "Riegel"
       ],
+      "en": [
+        "unknown"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q228039": "lock"
@@ -45162,6 +46082,9 @@ var senses={
     "sense": {
       "de": [
         "Zelebrierer"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
@@ -45177,6 +46100,9 @@ var senses={
     "sense": {
       "de": [
         "G\u00e4rtner"
+      ],
+      "en": [
+        "gardener"
       ],
       "qid": [
         {
@@ -45198,6 +46124,9 @@ var senses={
       "de": [
         "seine Ehre"
       ],
+      "en": [
+        "glory"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q207333": "honor"
@@ -45206,7 +46135,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -45218,6 +46147,9 @@ var senses={
       "de": [
         "Geisel"
       ],
+      "en": [
+        "hostage"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q192620": "hostage"
@@ -45226,9 +46158,15 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
-    "period": "oE"
+    "period": "oE",
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1389122",
+      "word": "l\u012b\u1e6du",
+      "lid_label": "l\u012b\u1e6du (L1389122)"
+    }
   },
   "GI\u0160.li-tu4": {
     "wordtype": {
@@ -45238,6 +46176,9 @@ var senses={
       "de": [
         "Zepter"
       ],
+      "en": [
+        "unknown"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q152065": "sceptre"
@@ -45246,7 +46187,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -45257,11 +46198,14 @@ var senses={
     "sense": {
       "de": [
         "Kn\u00fcpfteppich"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -45273,6 +46217,9 @@ var senses={
       "de": [
         "Verlautbarung",
         "Proklamation"
+      ],
+      "en": [
+        "announcement "
       ],
       "qid": [
         {
@@ -45289,19 +46236,32 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "offenbar wertvolle Substanz pflanzlicher Herkunft, Ambra"
+      ],
+      "en": [
+        "unknown"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q25381": "amber"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
     }
   },
   "h.li-ya-an-ib-ba": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "GN",
     "sense": {
       "de": [
-        "von Liyan"
+        "die (pl.) von Liyan"
+      ],
+      "en": [
+        "persons from Lian"
       ]
     },
     "reference": {
@@ -45311,12 +46271,13 @@ var senses={
     "period": "mE"
   },
   "h.li-ya-an-ir-ra": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "GN",
     "sense": {
       "de": [
-        "aus Liyan"
+        "der (die) aus Liyan"
+      ],
+      "en": [
+        "a person from Lian"
       ]
     },
     "reference": {
@@ -45326,10 +46287,15 @@ var senses={
     "period": "mE"
   },
   "h.li-ya-an-ir-ru-me": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
+    "wordtype": "GN",
+    "sense": {
+      "de": [
+        "der (die) aus Liyan"
+      ],
+      "en": [
+        "a person from Lian"
+      ]
     },
-    "sense": {},
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -45337,10 +46303,15 @@ var senses={
     "period": "mE"
   },
   "h.li-ya-an-ra": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
+    "wordtype": "GN",
+    "sense": {
+      "de": [
+        "der (die) aus Liyan"
+      ],
+      "en": [
+        "a person from Lian"
+      ]
     },
-    "sense": {},
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -45355,11 +46326,21 @@ var senses={
         "Lager",
         "Depot",
         "Magazin"
+      ],
+      "en": [
+        "warehouse",
+        "deposit",
+        "depot"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q181623": "warehouse"
+        }
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -45367,7 +46348,19 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "K\u00f6nig"
+      ],
+      "en": [
+        "king"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q116": "king"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -45377,10 +46370,22 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "K\u00f6nig"
+      ],
+      "en": [
+        "king"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q116": "king"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -45388,7 +46393,19 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "der K\u00f6nige"
+      ],
+      "en": [
+        "of the king"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q116": "king"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -45402,6 +46419,9 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nige"
+      ],
+      "en": [
+        "kingship"
       ],
       "qid": [
         {
@@ -45423,6 +46443,9 @@ var senses={
       "de": [
         "K\u00f6nig"
       ],
+      "en": [
+        "king"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q116": "king"
@@ -45439,7 +46462,19 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "K\u00f6nig"
+      ],
+      "en": [
+        "king"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q116": "king"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -45454,9 +46489,12 @@ var senses={
       "de": [
         "Gro\u00dfk\u00f6nig"
       ],
+      "en": [
+        "big, great"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q3114558": "Great King"
+          "http://www.wikidata.org/entity/Q42298454": "greatness"
         }
       ]
     },
@@ -45474,9 +46512,12 @@ var senses={
       "de": [
         "Gro\u00dfk\u00f6nig"
       ],
+      "en": [
+        "big, great"
+      ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/Q3114558": "Great King"
+          "http://www.wikidata.org/entity/Q42298454": "greatness"
         }
       ]
     },
@@ -45493,6 +46534,9 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nigsherrschaft"
+      ],
+      "en": [
+        "kingship"
       ],
       "qid": [
         {
@@ -45513,6 +46557,14 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nig der K\u00f6nige"
+      ],
+      "en": [
+        "king"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q116": "king"
+        }
       ]
     },
     "reference": {
@@ -45528,6 +46580,9 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nigsherrschaft"
+      ],
+      "en": [
+        "kingship"
       ],
       "qid": [
         {
@@ -45549,6 +46604,9 @@ var senses={
       "de": [
         "K\u00f6nigsherrschaft"
       ],
+      "en": [
+        "kingship"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q11573140": "kingship"
@@ -45568,11 +46626,14 @@ var senses={
     "sense": {
       "de": [
         "Bezeichnung bestimmter Personen"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -45583,6 +46644,9 @@ var senses={
     "sense": {
       "de": [
         "T\u00fcr"
+      ],
+      "en": [
+        "unknown"
       ],
       "qid": [
         {
@@ -45603,6 +46667,9 @@ var senses={
     "sense": {
       "de": [
         "ein Segnender"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
@@ -45618,6 +46685,9 @@ var senses={
     "sense": {
       "de": [
         "ein Segnender"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
@@ -45634,6 +46704,9 @@ var senses={
       "de": [
         "Hosen"
       ],
+      "en": [
+        "trousers"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q39908": "trousers"
@@ -45647,19 +46720,19 @@ var senses={
     "period": "achE"
   },
   "lu-ip-lak.ba-ri-i\u0161.hu-ut-ti-ip": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "noun",
     "sense": {
       "de": [
-        "Verfertiger(innen) von feinen Hosen"
+        "Anfertiger(innen) von Luxushosen"
+      ],
+      "en": [
+        "luxury"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
-    },
-    "period": "achE"
+    }
   },
   "lu-ip-lak-ki": {
     "wordtype": {
@@ -45668,6 +46741,9 @@ var senses={
     "sense": {
       "de": [
         "Hosen"
+      ],
+      "en": [
+        "trousers"
       ],
       "qid": [
         {
@@ -45689,6 +46765,9 @@ var senses={
       "de": [
         "Verfertiger(innen) von feinen Hosen"
       ],
+      "en": [
+        "trousers"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q39908": "trousers"
@@ -45708,6 +46787,9 @@ var senses={
     "sense": {
       "de": [
         "Verfertiger(innen) von feinen Hosen"
+      ],
+      "en": [
+        "trousers"
       ],
       "qid": [
         {
@@ -45731,6 +46813,11 @@ var senses={
       ],
       "en": [
         "antimony"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q1099": "antimony"
+        }
       ]
     },
     "reference": {
@@ -45766,6 +46853,11 @@ var senses={
       ],
       "en": [
         "to burn"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q133235": "combustion"
+        }
       ]
     },
     "reference": {
@@ -45797,6 +46889,9 @@ var senses={
     "sense": {
       "de": [
         "anscheinend Zusatzger\u00e4t zu Helmen"
+      ],
+      "en": [
+        "additional part of an helmet"
       ]
     },
     "reference": {
@@ -45837,13 +46932,24 @@ var senses={
       ],
       "en": [
         "antimony"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q1099": "antimony"
+        }
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
     },
-    "period": "mE"
+    "period": "mE",
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1389323",
+      "word": "lul\u00fb",
+      "lid_label": "lul\u00fb (L1389323)"
+    }
   },
   "h.lu-up-pu-ni-ir-ra": {
     "wordtype": {
@@ -45933,7 +47039,7 @@ var senses={
       ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/https://www.wikidata.org/wiki/Q131512": "https://www.wikidata.org/wiki/Q13151"
+          "http://www.wikidata.org/entity/Q131512": "farmer"
         }
       ]
     },
@@ -45956,7 +47062,7 @@ var senses={
       ],
       "qid": [
         {
-          "http://www.wikidata.org/entity/https://www.wikidata.org/wiki/Q131512": "https://www.wikidata.org/wiki/Q13151"
+          "http://www.wikidata.org/entity/Q131512": "farmer"
         }
       ]
     },
@@ -47485,6 +48591,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292865": "Marka\u0161ana\u0161"
+        }
       ]
     },
     "reference": {
@@ -47500,6 +48611,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292865": "Marka\u0161ana\u0161"
+        }
       ]
     },
     "reference": {
@@ -47515,6 +48631,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292865": "Marka\u0161ana\u0161"
+        }
       ]
     },
     "reference": {
@@ -47530,6 +48651,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292865": "Marka\u0161ana\u0161"
+        }
       ]
     },
     "reference": {
@@ -47545,6 +48671,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292865": "Marka\u0161ana\u0161"
+        }
       ]
     },
     "reference": {
@@ -47560,6 +48691,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292865": "Marka\u0161ana\u0161"
+        }
       ]
     },
     "reference": {
@@ -47575,6 +48711,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132292865": "Marka\u0161ana\u0161"
+        }
       ]
     },
     "reference": {
@@ -48985,6 +50126,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49000,6 +50146,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49471,6 +50622,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49486,6 +50642,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49501,6 +50662,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49516,6 +50682,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49531,6 +50702,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49546,6 +50722,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49561,6 +50742,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49599,6 +50785,11 @@ var senses={
       "de": [
         "Sch\u00e4tzung",
         "Bestandsaufnahme"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q3314483": "estimation"
+        }
       ]
     },
     "reference": {
@@ -49615,6 +50806,11 @@ var senses={
       "de": [
         "Sch\u00e4tzung",
         "Bestandsaufnahme"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q3314483": "estimation"
+        }
       ]
     },
     "reference": {
@@ -49645,6 +50841,11 @@ var senses={
     "sense": {
       "de": [
         "12. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49660,6 +50861,11 @@ var senses={
     "sense": {
       "de": [
         "12. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -49675,6 +50881,11 @@ var senses={
     "sense": {
       "de": [
         "12. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -50183,6 +51394,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -50198,6 +51414,11 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -50213,6 +51434,11 @@ var senses={
     "sense": {
       "de": [
         "12. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -50228,6 +51454,11 @@ var senses={
     "sense": {
       "de": [
         "12. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -50243,6 +51474,11 @@ var senses={
     "sense": {
       "de": [
         "12. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -50258,6 +51494,11 @@ var senses={
     "sense": {
       "de": [
         "12. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -50273,6 +51514,11 @@ var senses={
     "sense": {
       "de": [
         "12. Monat"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q132291945": "Miyakanna\u0161"
+        }
       ]
     },
     "reference": {
@@ -60038,7 +61284,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "W\u00e4ger"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60049,7 +61299,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "W\u00e4ger"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60060,7 +61314,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "seinen Stuck-Verputz"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60071,7 +61329,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein Gebrauchsgegenstand"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60082,7 +61344,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Reisende"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60478,7 +61744,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Berufs- oder Amtsbezeichnung"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60489,7 +61759,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Trauben"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60553,7 +61827,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Decke, Umhang, \u00dcberwurf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60564,7 +61842,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "sein Amulett, sein Tabu-Emblem(?)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60575,7 +61857,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein Kommender"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60586,7 +61872,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Decke, Umhang, \u00dcberwurf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60752,7 +62042,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Zuteilung"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60763,7 +62057,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Zuteilung"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60776,7 +62074,7 @@ var senses={
     },
     "sense": {
       "de": [
-        "front"
+        "Vorderseite"
       ],
       "qid": [
         {
@@ -60793,7 +62091,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Luft"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60823,7 +62125,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Name des Heiligen Bezirks in Coga Zambil"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60834,7 +62140,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der zum Heiligen Bezirk geh\u00f6rt"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -60847,7 +62157,7 @@ var senses={
     },
     "sense": {
       "de": [
-        "favour"
+        "Gunsterweis"
       ],
       "qid": [
         {
@@ -60857,7 +62167,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "oE"
   },
@@ -60865,10 +62175,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Hornbl\u00e4ser, Trompeter"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -60876,10 +62190,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein Monatsname"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -60887,10 +62205,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"an unknown fruit\" (Hallock, DAFI 8, 1978, 116)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -60900,12 +62222,12 @@ var senses={
     },
     "sense": {
       "de": [
-        "3. Monat"
+        "3. Monat des babylonischen Kalenders"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -60925,7 +62247,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -60945,7 +62267,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -60966,7 +62288,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -61014,7 +62336,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gegenstand aus Metall"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61094,7 +62420,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "der Gest\u00e4rkte, Starke"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61105,10 +62435,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein St\u00e4rkender"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -61128,7 +62462,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -61792,7 +63126,7 @@ var senses={
     },
     "sense": {
       "de": [
-        "Bernstein"
+        "Bezeichnet ein wervolles Material, vielleicht Bernstein"
       ],
       "qid": [
         {
@@ -61840,7 +63174,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "der starkbewehrte"
+      ],
+      "en": [
+        "heavily armored"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61854,6 +63195,9 @@ var senses={
     "sense": {
       "de": [
         "mein Gro\u00dfvater"
+      ],
+      "en": [
+        "my grandfather"
       ],
       "qid": [
         {
@@ -61876,6 +63220,9 @@ var senses={
         "Kies",
         "Schotter"
       ],
+      "en": [
+        "Gravel, crushed stone"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q133833": "gravel"
@@ -61892,7 +63239,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Genesende, Genesene (pl.)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61903,7 +63254,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Genesende (pl.)"
+      ],
+      "en": [
+        "Convalescent"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61914,7 +63272,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Genesende (pl.)"
+      ],
+      "en": [
+        "Convalescent"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61925,7 +63290,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "en": [
+        "protect"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61939,6 +63308,9 @@ var senses={
     "sense": {
       "de": [
         "Tempel"
+      ],
+      "en": [
+        "temple"
       ],
       "qid": [
         {
@@ -61955,7 +63327,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"w\u00f6rtlich TempelSchutz\""
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61966,7 +63345,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"protecteurs du temple\""
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -61977,7 +63363,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "der (die) von Siyankuk"
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62032,25 +63425,13 @@ var senses={
       "de": [
         "Tempelanlage"
       ],
+      "en": [
+        "temple complex"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q44539": "temple"
         }
-      ]
-    },
-    "reference": {
-      "title": "Hinz & Koch",
-      "volumenumber": "2"
-    },
-    "period": "mE"
-  },
-  "si-ya-an-ra": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
-    "sense": {
-      "de": [
-        "der vom Tempel"
       ]
     },
     "reference": {
@@ -62066,6 +63447,9 @@ var senses={
     "sense": {
       "de": [
         "Tempelanlage"
+      ],
+      "en": [
+        "temple complex"
       ],
       "qid": [
         {
@@ -62086,6 +63470,9 @@ var senses={
     "sense": {
       "de": [
         "Gro\u00dfvieh"
+      ],
+      "en": [
+        "heavy livestock"
       ]
     },
     "reference": {
@@ -62101,6 +63488,9 @@ var senses={
     "sense": {
       "de": [
         "Schwerarbeiter"
+      ],
+      "en": [
+        "heavy laborer"
       ]
     },
     "reference": {
@@ -62116,6 +63506,9 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nigsherrschaft"
+      ],
+      "en": [
+        "kingship"
       ],
       "qid": [
         {
@@ -62137,6 +63530,9 @@ var senses={
       "de": [
         "K\u00f6nig"
       ],
+      "en": [
+        "king  "
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q116": "king"
@@ -62155,6 +63551,9 @@ var senses={
     "sense": {
       "de": [
         "Gebrauchsgegenstand"
+      ],
+      "en": [
+        "utility object"
       ]
     },
     "reference": {
@@ -62167,7 +63566,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Stele"
+      ],
+      "en": [
+        "stele"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62178,10 +63584,17 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Stele"
+      ],
+      "en": [
+        "stele"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "1"
     },
     "period": "mE"
   },
@@ -62189,7 +63602,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Altar(schrein)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62200,7 +63617,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Altarweg"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62211,7 +63632,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Altar-Anlage"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62222,7 +63647,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Altar-Anlage"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62237,6 +63666,9 @@ var senses={
       "de": [
         "Altarschrein"
       ],
+      "en": [
+        "altar shrine"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q697295": "shrine"
@@ -62245,7 +63677,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -62253,10 +63685,17 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Altarweg"
+      ],
+      "en": [
+        "altar way"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -62267,6 +63706,9 @@ var senses={
     "sense": {
       "de": [
         "Gebrauchsgegenstand"
+      ],
+      "en": [
+        "utility object"
       ]
     },
     "reference": {
@@ -62282,6 +63724,9 @@ var senses={
     "sense": {
       "de": [
         "Flasche"
+      ],
+      "en": [
+        "bottle  "
       ],
       "qid": [
         {
@@ -62303,6 +63748,9 @@ var senses={
       "de": [
         "Flaschenst\u00f6psel"
       ],
+      "en": [
+        "bottle stopper"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q120135833": "bottle stopper"
@@ -62323,6 +63771,9 @@ var senses={
       "de": [
         "K\u00f6nige"
       ],
+      "en": [
+        "kings"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q116": "king"
@@ -62342,6 +63793,9 @@ var senses={
     "sense": {
       "de": [
         "Angeforderte"
+      ],
+      "en": [
+        "requested"
       ]
     },
     "reference": {
@@ -62354,7 +63808,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der ausstreicht, tilgt"
+      ],
+      "en": [
+        "one who crosses out, erases"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62369,6 +63830,9 @@ var senses={
       "de": [
         "Ausstreichender",
         "Tilgender"
+      ],
+      "en": [
+        "an eraser, eradicator"
       ]
     },
     "reference": {
@@ -62381,7 +63845,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der (schwer} arbeiten l\u00e4\u00dft"
+      ],
+      "en": [
+        "one who makes (hard) work"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62392,7 +63863,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"Bestandteil eines Schildes\""
+      ],
+      "en": [
+        "part of a sign"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62406,6 +63884,9 @@ var senses={
     "sense": {
       "de": [
         "die Leute aus Zune"
+      ],
+      "en": [
+        "the people from Zune"
       ]
     },
     "reference": {
@@ -62421,6 +63902,9 @@ var senses={
     "sense": {
       "de": [
         "Opferverpflichtungstafel"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
@@ -62436,6 +63920,9 @@ var senses={
     "sense": {
       "de": [
         "Opferverpflichtung"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
@@ -62451,6 +63938,9 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nig"
+      ],
+      "en": [
+        "king"
       ],
       "qid": [
         {
@@ -62472,6 +63962,9 @@ var senses={
       "de": [
         "K\u00f6nige"
       ],
+      "en": [
+        "kings"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q116": "king"
@@ -62490,6 +63983,14 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nigsherrschaft"
+      ],
+      "en": [
+        "reign"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q7310094": "reign"
+        }
       ]
     },
     "reference": {
@@ -62504,6 +64005,9 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nige"
+      ],
+      "en": [
+        "kings"
       ],
       "qid": [
         {
@@ -62523,6 +64027,14 @@ var senses={
     "sense": {
       "de": [
         "meine K\u00f6nigsherrschaft"
+      ],
+      "en": [
+        "I"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q7310094": "reign"
+        }
       ]
     },
     "reference": {
@@ -62538,6 +64050,14 @@ var senses={
     "sense": {
       "de": [
         "meine K\u00f6nigsherrschaft"
+      ],
+      "en": [
+        "I"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q7310094": "reign"
+        }
       ]
     },
     "reference": {
@@ -62553,6 +64073,14 @@ var senses={
     "sense": {
       "de": [
         "der Beter"
+      ],
+      "en": [
+        "the worshipper"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q17573152": "believer"
+        }
       ]
     },
     "reference": {
@@ -62568,6 +64096,14 @@ var senses={
     "sense": {
       "de": [
         "Bedr\u00e4nger"
+      ],
+      "en": [
+        "harassers"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q3824194": "bully"
+        }
       ]
     },
     "reference": {
@@ -62583,6 +64119,9 @@ var senses={
     "sense": {
       "de": [
         "Tauschgesch\u00e4ft"
+      ],
+      "en": [
+        "barter transaction"
       ],
       "qid": [
         {
@@ -62600,10 +64139,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Elle"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     }
   },
   "\u00fa-ba": {
@@ -62613,7 +64156,7 @@ var senses={
     "sense": {},
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -62621,7 +64164,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Herrenhaus"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62631,7 +64178,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "meine Leute aus Udazammin"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62642,7 +64193,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Eine Berufsbezeichnung "
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62653,7 +64208,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Sachbedarf, Opferbedarf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62664,7 +64223,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Schaf, Widder, Hammel"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62675,7 +64238,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Schafhirt"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62686,7 +64253,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Schafhirten"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62786,9 +64357,7 @@ var senses={
     "period": "nE"
   },
   "u-hu-ut-ta\u0161": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
+    "wordtype": "verb",
     "sense": {},
     "reference": {
       "title": "Hinz & Koch",
@@ -62815,7 +64384,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Arbeiter, die vollst\u00e4ndig zu Lasten der Krone verpflegt werden"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62841,7 +64414,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "altiran. Berufsbezeichnung"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62852,7 +64429,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "altiran. Berufsbezeichnung"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62863,7 +64444,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Arbeiter, die vollst\u00e4ndig zu Lasten der Krone verpflegt werden"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62915,7 +64500,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Salber"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62956,7 +64545,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"cattle assistant\" (Gershevitch, TPS 1969, 183)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62967,7 +64560,12 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Vizeobstwart",
+        "\"assistant fruit handler\" (Hallock 1969, 766b)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62978,7 +64576,12 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Vizeobstwart",
+        "\"assistant fruit handler\" (Hallock 1969, 766b)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -62989,7 +64592,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"cattle assistant\" (Gershevitch, Sprachgut 1975, 245)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63000,7 +64607,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "wohl altiran. Berufsbezeichnung"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63011,7 +64622,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "sein Beigeordneter"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63022,7 +64637,12 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Dreinhauer",
+        "Peitschentr\u00e4ger, Polizist"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63033,7 +64653,12 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Dreinhauer",
+        "Peitschentr\u00e4ger, Polizist"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63044,7 +64669,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Sachbedarf, Lagerbestand"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63057,12 +64686,7 @@ var senses={
     },
     "sense": {
       "de": [
-        "Koch"
-      ],
-      "qid": [
-        {
-          "http://www.wikidata.org/entity/Q156839": "cook"
-        }
+        "sein Kopf"
       ]
     },
     "reference": {
@@ -63074,7 +64698,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "auf, gem\u00e4\u00df, durch"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63085,7 +64713,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Frauensperson"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63096,7 +64728,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Mannsperson, Kopf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63107,7 +64743,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Mannspersonen, Mannsk\u00f6pfe"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63118,7 +64758,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ihr Konto"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63129,7 +64773,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Kopfbedeckung, Hut"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63140,7 +64788,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "sein Haupt, seinen Kopf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63151,7 +64803,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Mantel, Umhang"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63162,7 +64818,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Mantel, Umhang, Cape, Panzerhemd"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63184,7 +64844,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Soll, Abgabe, Beitrag, Verpflichtung, Auferlegtes"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63210,7 +64874,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Frauensperson"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63221,7 +64889,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "der (welcher) \u00fcber (etwas) ist"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63252,7 +64924,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "F\u00fchrer, Vorgesetzte"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63263,7 +64939,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Mantel, Umhang"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63274,7 +64954,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der die Oberhand gewinnt"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63285,7 +64969,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "(k\u00f6niglicher) Sachbedarf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63296,7 +64984,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "(k\u00f6niglicher) Sachbedarf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63307,7 +64999,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "(k\u00f6niglicher) Sachbedarf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63318,7 +65014,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein \u00dcberlegener"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63329,7 +65029,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "erstes Glied einer Aufz\u00e4hlung von Sachen"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63355,10 +65059,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Wohnstatt, Palast"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -63366,10 +65074,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Haus, palast, Hof"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -63393,10 +65105,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "sein Palast"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -63426,7 +65142,7 @@ var senses={
     },
     "sense": {
       "de": [
-        "sein Palast"
+        "in seinem Palast, an seinem Hof"
       ],
       "qid": [
         {
@@ -63436,20 +65152,21 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
   "h.ul-hi.lg.mi": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
+    "wordtype": "noun",
+    "sense": {
+      "de": [
+        "mein"
+      ]
     },
-    "sense": {},
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
-    },
-    "period": "achE"
+      "volumenumber": "2"
+    }
   },
   "ul-hu": {
     "wordtype": {
@@ -63467,7 +65184,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -63475,10 +65192,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Tierm\u00e4nnchen"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -63486,10 +65207,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Waffe, \"Rohrpfeil\" (Bork 1941, 18)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -63497,10 +65222,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Bezeichnung eines noch unbekannten Nahrungsmittels"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -63508,7 +65237,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Lieferer (Pl.), Transporteure"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63519,7 +65252,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein Ablieferer, \"is delivering\" (Hallock 1969, 109)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63530,7 +65267,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gebrauchsgegenstand aus Filz, vielleicht Kappe"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63540,7 +65281,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Lieferanten, Beschaffer"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63551,7 +65296,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein Gebrauchsgegenstand"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63562,7 +65311,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Bezeichnung eines Kleidungsst\u00fcckes, vielleicht Kopftuch"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63573,7 +65326,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Lieferant"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63584,7 +65341,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Lieferant"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63595,7 +65356,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "sein Lieferant"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63606,7 +65371,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Lieferant"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63617,7 +65386,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "sein Lieferant"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63628,7 +65401,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "sein Lieferant"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63662,7 +65439,7 @@ var senses={
     },
     "sense": {
       "de": [
-        "Zinnober"
+        "ein Farbmittel, vielleicht Zinnober"
       ],
       "qid": [
         {
@@ -63680,7 +65457,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein Farbmittel, vielleicht Zinnober"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63691,7 +65472,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Erbsen, Linsen, Bohnen"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63702,7 +65487,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Bezeichnung eines wahrscheinlich weiblichen Kleidungsst\u00fcckes"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63713,7 +65502,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Monatsname in Fort. 5056:16 (8. Monat)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63724,10 +65517,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Mehl"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -63735,7 +65532,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Weiler, Dorf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63746,7 +65547,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Weiler, Dorf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63757,7 +65562,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Weiler, Dorf"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63768,7 +65577,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Haumaschwelger"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63779,7 +65592,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "*umr\u016bta-Birne(n)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63790,7 +65607,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "das meinige"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63801,7 +65622,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "die Meinigen"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63812,7 +65637,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "*umr\u016bta-Birne(n)"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63823,7 +65652,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Wert"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63834,10 +65667,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Haumaschwelger"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -63847,7 +65684,7 @@ var senses={
     },
     "sense": {
       "de": [
-        "Volk"
+        "das Volk"
       ],
       "qid": [
         {
@@ -63857,7 +65694,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -63865,10 +65702,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "bezeichnet einen Schmuckgegenstand"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -63891,7 +65732,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "dessen Inhalt"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63902,7 +65747,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Vizeschatzwart, Finanzchef"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -63912,10 +65761,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Leute der Beamten des Finanzchefs"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -63923,10 +65776,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "der Mann der Beamten des Finanzchefs"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -63934,10 +65791,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Beamter des Vizeschatzwartes"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -63945,10 +65806,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ihre Falschaussage "
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -63969,7 +65834,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -64044,7 +65909,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -64102,7 +65967,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Malz"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -64113,7 +65982,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ein ura-Macher"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -64124,10 +65997,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Alabastron"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -64135,10 +66012,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Backstein"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -64146,10 +66027,15 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der glaubt",
+        "ein Glaubender"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -64157,10 +66043,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gl\u00e4ubige, Fromme"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -64168,10 +66058,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "die fr\u00fcheren"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -64179,10 +66073,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "die fr\u00fcheren"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -64190,7 +66088,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "die fr\u00fcheren"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -64201,7 +66103,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Hundewart"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -64212,7 +66118,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "die fr\u00fcheren "
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -64223,7 +66133,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "die fr\u00fcheren"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -64234,7 +66148,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "vielleicht Bezeichnung eines Gegenstands aus Silber"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -64423,7 +66341,13 @@ var senses={
       "title": "Hinz & Koch",
       "volumenumber": "2"
     },
-    "period": "nE"
+    "period": "nE",
+    "loan_word": {
+      "language": "Sum",
+      "lid": "http://www.wikidata.org/entity/L1402787",
+      "word": "Usan",
+      "lid_label": "Usan (L1402787)"
+    }
   },
   "GI\u0160.\u00fa-sa.nu-i\u0161-ki-ip": {
     "wordtype": {
@@ -65133,7 +67057,7 @@ var senses={
         "mein Bildwerk"
       ],
       "en": [
-        "my statue"
+        "I,me"
       ]
     },
     "reference": {
@@ -65826,7 +67750,13 @@ var senses={
       "title": "Hinz & Koch",
       "volumenumber": "2"
     },
-    "period": "achE"
+    "period": "achE",
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1380909",
+      "word": "a\u0161irtu",
+      "lid_label": "a\u0161irtu (L1380909)"
+    }
   },
   "zag-ra-tu4-me": {
     "wordtype": {
@@ -66219,7 +68149,7 @@ var senses={
         "B\u00fcffel"
       ],
       "en": [
-        "buffalo ?"
+        "unknown"
       ],
       "qid": [
         {
@@ -66356,10 +68286,17 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Schwerarbeiter (pl.)"
+      ],
+      "en": [
+        "heavy laborer"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -66367,10 +68304,17 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Berufsbezeichnung oder Ethnikon? (pl.)"
+      ],
+      "en": [
+        "job title or ethnonym"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -66378,20 +68322,34 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Herrin"
+      ],
+      "en": [
+        "lady"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     }
   },
   "d.za-na": {
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Herrin"
+      ],
+      "en": [
+        "lady"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     }
   },
   "za-na-a": {
@@ -66401,11 +68359,14 @@ var senses={
     "sense": {
       "de": [
         "Herrin"
+      ],
+      "en": [
+        "lady"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -66417,6 +68378,9 @@ var senses={
       "de": [
         "Wurm"
       ],
+      "en": [
+        "worm"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q47253": "worm"
@@ -66425,7 +68389,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -66433,10 +68397,17 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Berufsbezeichnung"
+      ],
+      "en": [
+        "a job title"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -66444,7 +68415,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Aufbewahrer, Pfleger, Versorger"
+      ],
+      "en": [
+        "keeper, caretaker, provider"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66458,6 +68436,9 @@ var senses={
     "sense": {
       "de": [
         "die Frau aus Zappi"
+      ],
+      "en": [
+        "the woman from Zappi"
       ]
     },
     "reference": {
@@ -66470,7 +68451,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "kleine Ma\u00dfbezeichnung von 1 / 24 QA"
+      ],
+      "en": [
+        "small dimension designation of 1 / 24 QA"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66484,6 +68472,9 @@ var senses={
     "sense": {
       "de": [
         "Gef\u00e4lligkeit"
+      ],
+      "en": [
+        "courtesy"
       ],
       "qid": [
         {
@@ -66501,7 +68492,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "der Leute von Zari"
+      ],
+      "en": [
+        "of the people of Zari"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66515,6 +68513,9 @@ var senses={
     "sense": {
       "de": [
         "Schmierfett"
+      ],
+      "en": [
+        "grease"
       ],
       "qid": [
         {
@@ -66532,7 +68533,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der knechtet"
+      ],
+      "en": [
+        "one who enslaves"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66543,18 +68551,32 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gratifikation, Zuwendung"
+      ],
+      "en": [
+        "gratuity, allowance"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
     },
     "period": "achE"
   },
-  "za-\u0161i-za-um": {
+  "za-\u0161i-za-am": {
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gratifikation, Zuwendung"
+      ],
+      "en": [
+        "gratuity, allowance"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66568,6 +68590,9 @@ var senses={
     "sense": {
       "de": [
         "Viertel"
+      ],
+      "en": [
+        "one fourth"
       ],
       "qid": [
         {
@@ -66585,7 +68610,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "ap. Eigennamen n\u00e4her"
+      ],
+      "en": [
+        "old Persian proper noun"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66599,19 +68631,35 @@ var senses={
     "sense": {
       "de": [
         "Bildwerk"
+      ],
+      "en": [
+        "statue"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
     },
-    "period": "achE"
+    "period": "achE",
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L745394",
+      "word": "\u1e63almu(m)",
+      "lid_label": "\u1e63almu (L745394)"
+    }
   },
   "za-u-mi-in": {
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "M\u00fchewaltung"
+      ],
+      "en": [
+        "effort management"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66624,7 +68672,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "M\u00fchewaltung"
+        "Schwerarbeiter"
+      ],
+      "en": [
+        "heavy laborer"
       ]
     },
     "reference": {
@@ -66640,6 +68691,9 @@ var senses={
     "sense": {
       "de": [
         "Schwerarbeiter"
+      ],
+      "en": [
+        "heavy laborer"
       ]
     },
     "reference": {
@@ -66652,7 +68706,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der sich anstrengt"
+      ],
+      "en": [
+        "one who makes an effort"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66663,7 +68724,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Vierschaftsf\u00fchrer"
+      ],
+      "en": [
+        "head of a team"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66674,7 +68742,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Eigenschaft eines Rindes"
+      ],
+      "en": [
+        "?"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66689,6 +68764,9 @@ var senses={
       "de": [
         "Mehl"
       ],
+      "en": [
+        "flour"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q36465": "flour"
@@ -66698,6 +68776,12 @@ var senses={
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
+    },
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L744886",
+      "word": "q\u0113mu(m)",
+      "lid_label": "q\u0113mu (L744886)"
     }
   },
   "zi-a-na-am": {
@@ -66707,6 +68791,9 @@ var senses={
     "sense": {
       "de": [
         "Tempel"
+      ],
+      "en": [
+        "temple"
       ],
       "qid": [
         {
@@ -66728,6 +68815,9 @@ var senses={
       "de": [
         "Tempel"
       ],
+      "en": [
+        "temple"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q44539": "temple"
@@ -66744,7 +68834,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"ein Wort mit schillernden Bedeutungen\""
+      ],
+      "en": [
+        "various meanings"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66758,6 +68855,9 @@ var senses={
     "sense": {
       "de": [
         "ein N\u00e4hender"
+      ],
+      "en": [
+        "seamstress"
       ]
     },
     "reference": {
@@ -66773,6 +68873,9 @@ var senses={
     "sense": {
       "de": [
         "Kamel"
+      ],
+      "en": [
+        "camel"
       ],
       "qid": [
         {
@@ -66790,7 +68893,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "dauernd, st\u00e4ndig"
+      ],
+      "en": [
+        "permanently, constantly"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66801,7 +68911,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Wunschkost"
+      ],
+      "en": [
+        "desired food"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66812,7 +68929,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Abgang, Verlust"
+      ],
+      "en": [
+        "disposal, loss"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66836,7 +68960,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "Kanal in Susa"
+        "des Tempels"
+      ],
+      "en": [
+        "of the temple"
       ]
     },
     "reference": {
@@ -66852,6 +68979,9 @@ var senses={
     "sense": {
       "de": [
         "Wunschkost"
+      ],
+      "en": [
+        "desired food"
       ]
     },
     "reference": {
@@ -66864,7 +68994,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Name des ersten elamischen Monats"
+      ],
+      "en": [
+        "name of the first Elamite month"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66875,7 +69012,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Bezeichnung eines Nahrungsmittels"
+      ],
+      "en": [
+        "Designation of a foodstuff"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66886,7 +69030,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Name des ersten elamischen Monats"
+      ],
+      "en": [
+        "name of the first Elamite month"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -66900,6 +69051,9 @@ var senses={
     "sense": {
       "de": [
         "Standbild"
+      ],
+      "en": [
+        "still image"
       ]
     },
     "reference": {
@@ -66915,6 +69069,9 @@ var senses={
     "sense": {
       "de": [
         "der aus Zilli"
+      ],
+      "en": [
+        "the one from Zilli"
       ]
     },
     "reference": {
@@ -66930,6 +69087,9 @@ var senses={
       "de": [
         "Kleinkind",
         "S\u00e4ugling"
+      ],
+      "en": [
+        "infant, toddler"
       ],
       "qid": [
         {
@@ -66950,6 +69110,9 @@ var senses={
     "sense": {
       "de": [
         "Berufs- oder Orstbezeichnung"
+      ],
+      "en": [
+        "occupation or place name"
       ]
     },
     "reference": {
@@ -66966,6 +69129,17 @@ var senses={
       "de": [
         "Portal",
         "Tor(geb\u00e4ude)"
+      ],
+      "en": [
+        "portal, gate (building)"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q854429": "portal"
+        },
+        {
+          "http://www.wikidata.org/entity/Q53060": "gate"
+        }
       ]
     },
     "reference": {
@@ -66981,6 +69155,9 @@ var senses={
     "sense": {
       "de": [
         "(k\u00f6nigliche) Unterst\u00fctzung"
+      ],
+      "en": [
+        "(royal) support"
       ]
     },
     "reference": {
@@ -66996,6 +69173,9 @@ var senses={
     "sense": {
       "de": [
         "(k\u00f6nigliche) Unterst\u00fctzung"
+      ],
+      "en": [
+        "(royal) support"
       ]
     },
     "reference": {
@@ -67012,6 +69192,9 @@ var senses={
       "de": [
         "Schl\u00fcpfer",
         "Unterrock"
+      ],
+      "en": [
+        "slip, petticoat"
       ]
     },
     "reference": {
@@ -67024,7 +69207,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"erscheint in einer r\u00e4tselhaften Aufz\u00e4hlung von (abgeschnittenen?) Gliedma\u00dfen\""
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67038,6 +69228,9 @@ var senses={
     "sense": {
       "de": [
         "als Verpflegung"
+      ],
+      "en": [
+        "as catering"
       ]
     },
     "reference": {
@@ -67052,7 +69245,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "Huhn"
+        "Huhn, H\u00fchner"
+      ],
+      "en": [
+        "chicken"
       ],
       "qid": [
         {
@@ -67072,7 +69268,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "Huhn"
+        "Huhn, H\u00fchner"
+      ],
+      "en": [
+        "chicken"
       ],
       "qid": [
         {
@@ -67090,7 +69289,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Abkunft"
+      ],
+      "en": [
+        "descent"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67101,10 +69307,22 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Sandalen"
+      ],
+      "en": [
+        "sandals"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/Q131704": "sandal"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -67112,7 +69330,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der au/sch\u00fcttet"
+      ],
+      "en": [
+        "one who pours out"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67123,7 +69348,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"Berufsbezeichnung im Plural\""
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67139,6 +69371,9 @@ var senses={
         "Tempelturm",
         "Ziggurat"
       ],
+      "en": [
+        "Temple tower, Ziggurat"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q170153": "ziggurat"
@@ -67149,7 +69384,13 @@ var senses={
       "title": "Hinz & Koch",
       "volumenumber": "2"
     },
-    "period": "nE"
+    "period": "nE",
+    "loan_word": {
+      "language": "Akk",
+      "lid": "http://www.wikidata.org/entity/L1334977",
+      "word": "ziqquratu",
+      "lid_label": "ziqqurratu (L1334977)"
+    }
   },
   "d.zik-li": {
     "wordtype": {
@@ -67157,7 +69398,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "1. Monat"
+        "Name des ersten elamischen Monats"
+      ],
+      "en": [
+        "name of the first Elamite month"
       ]
     },
     "reference": {
@@ -67173,6 +69417,9 @@ var senses={
     "sense": {
       "de": [
         "Verbuchte"
+      ],
+      "en": [
+        "unknown"
       ]
     },
     "reference": {
@@ -67188,6 +69435,9 @@ var senses={
     "sense": {
       "de": [
         "Nagel"
+      ],
+      "en": [
+        "nail"
       ],
       "qid": [
         {
@@ -67205,7 +69455,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Gestalt, so"
+      ],
+      "en": [
+        "shape, so"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67217,7 +69474,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "Bildhauer"
+        "Bildhauer(pl.)"
+      ],
+      "en": [
+        "sculptor"
       ],
       "qid": [
         {
@@ -67235,7 +69495,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "dein Bildwerk"
+      ],
+      "en": [
+        "your artwork"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67246,7 +69513,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "deine Bildwerke"
+      ],
+      "en": [
+        "your artwork"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67259,8 +69533,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "Bildwerke",
-        "Standbilder"
+        "Bildwerke"
+      ],
+      "en": [
+        "artwork"
       ]
     },
     "reference": {
@@ -67275,7 +69551,10 @@ var senses={
     },
     "sense": {
       "de": [
-        "5. Monat"
+        "Name des f\u00fcnften Monats"
+      ],
+      "en": [
+        "name of the fifth month"
       ]
     },
     "reference": {
@@ -67307,6 +69586,9 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "en": [
+        "a month name"
       ]
     },
     "reference": {
@@ -67322,6 +69604,9 @@ var senses={
     "sense": {
       "de": [
         "Monatsname"
+      ],
+      "en": [
+        "a month name"
       ]
     },
     "reference": {
@@ -67334,7 +69619,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Name des f\u00fcnften Monats"
+      ],
+      "en": [
+        "name of the fifth month"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67345,7 +69637,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Name des f\u00fcnften Monats"
+      ],
+      "en": [
+        "name of the fifth month"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67356,7 +69655,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Name des f\u00fcnften Monats"
+      ],
+      "en": [
+        "name of the fifth month"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67367,7 +69673,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"die Bedeutung k\u00f6nnte ungef\u00e4hr sein tariflich eingestufte Personen\""
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67378,7 +69691,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Tor, Portal"
+      ],
+      "en": [
+        "Door"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67389,7 +69709,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "{k\u00f6nigliche} Unterst\u00fctzung"
+      ],
+      "en": [
+        "(royal) support"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67400,7 +69727,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Unterrock, Schl\u00fcpfer, Slip"
+      ],
+      "en": [
+        "underwear"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67411,7 +69745,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "(k\u00f6nigliche} Unterst\u00fctzung"
+      ],
+      "en": [
+        "(royal) support"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67422,7 +69763,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "{k\u00f6nigliche) Unterst\u00fctzung"
+      ],
+      "en": [
+        "(royal) support"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67433,7 +69781,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "{k\u00f6nigliche) Unterst\u00fctzung"
+      ],
+      "en": [
+        "(royal) support"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67447,6 +69802,9 @@ var senses={
     "sense": {
       "de": [
         "Obst"
+      ],
+      "en": [
+        "fruit"
       ],
       "qid": [
         {
@@ -67498,6 +69856,9 @@ var senses={
       "de": [
         "Unterst\u00fctzung",
         "Grafitikation"
+      ],
+      "en": [
+        "(royal) support"
       ]
     },
     "reference": {
@@ -67510,7 +69871,11 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "en": [
+        "door"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67524,6 +69889,9 @@ var senses={
     "sense": {
       "de": [
         "Hofschneider"
+      ],
+      "en": [
+        "court tailor"
       ]
     },
     "reference": {
@@ -67536,7 +69904,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Berufsbezeichnung oder Eigenname"
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67547,7 +69922,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "einer, der sch\u00e4ndet"
+      ],
+      "en": [
+        "one who desecrates"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67558,10 +69940,17 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "drei"
+      ],
+      "en": [
+        "three"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -67573,11 +69962,14 @@ var senses={
       "de": [
         "Gesundheit",
         "Wohlergehen"
+      ],
+      "en": [
+        "health, well-being"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -67587,12 +69979,15 @@ var senses={
     },
     "sense": {
       "de": [
-        "Monatsname"
+        "Name des f\u00fcnften Monats"
+      ],
+      "en": [
+        "name of the fifth month"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -67603,11 +69998,14 @@ var senses={
     "sense": {
       "de": [
         "Zuschneider"
+      ],
+      "en": [
+        "cutter"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -67619,6 +70017,9 @@ var senses={
       "de": [
         "Waffe"
       ],
+      "en": [
+        "weapon"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q728": "weapon"
@@ -67627,7 +70028,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "nE"
   },
@@ -67635,10 +70036,17 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"Die Bedeutung ... ist aber noch unsicher\""
+      ],
+      "en": [
+        "unknown"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -67650,6 +70058,9 @@ var senses={
       "de": [
         "Trockenfutter"
       ],
+      "en": [
+        "dried food"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q13163235": "dried food"
@@ -67658,7 +70069,7 @@ var senses={
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -67669,11 +70080,14 @@ var senses={
     "sense": {
       "de": [
         "Hohlma\u00df"
+      ],
+      "en": [
+        "measure of capacity"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -67684,11 +70098,14 @@ var senses={
     "sense": {
       "de": [
         "Genesende"
+      ],
+      "en": [
+        "convalescent"
       ]
     },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "achE"
   },
@@ -67699,6 +70116,9 @@ var senses={
     "sense": {
       "de": [
         "Tempel"
+      ],
+      "en": [
+        "temple"
       ],
       "qid": [
         {
@@ -67712,24 +70132,12 @@ var senses={
     }
   },
   "z\u00ed-ya-an?.\u00fa-mi": {
-    "wordtype": {
-      "http://www.wikidata.org/entity/Q1084": "noun"
-    },
-    "sense": {
-      "de": [
-        "mein Tempel"
-      ],
-      "qid": [
-        {
-          "http://www.wikidata.org/entity/Q44539": "temple"
-        }
-      ]
-    },
+    "wordtype": "noun",
+    "sense": {},
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": "2"
-    },
-    "period": "nE"
+      "volumenumber": ""
+    }
   },
   "z\u00ed-ya-in-ra": {
     "wordtype": {
@@ -67738,6 +70146,9 @@ var senses={
     "sense": {
       "de": [
         "einer der sieht"
+      ],
+      "en": [
+        "one who sees"
       ]
     },
     "reference": {
@@ -67754,6 +70165,9 @@ var senses={
       "de": [
         "Gratifikation",
         "Zuwendung"
+      ],
+      "en": [
+        "gratuity, allowance"
       ]
     },
     "reference": {
@@ -67769,6 +70183,9 @@ var senses={
     "sense": {
       "de": [
         "Tempel"
+      ],
+      "en": [
+        "of the temple"
       ],
       "qid": [
         {
@@ -67790,6 +70207,9 @@ var senses={
       "de": [
         "Tempel"
       ],
+      "en": [
+        "of the temple"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q44539": "temple"
@@ -67809,6 +70229,9 @@ var senses={
     "sense": {
       "de": [
         "11. Monat"
+      ],
+      "en": [
+        "11th month"
       ]
     },
     "reference": {
@@ -67824,6 +70247,9 @@ var senses={
     "sense": {
       "de": [
         "Wunschkost"
+      ],
+      "en": [
+        "desired food"
       ]
     },
     "reference": {
@@ -67836,10 +70262,22 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Mehl"
+      ],
+      "en": [
+        "flour"
+      ],
+      "qid": [
+        {
+          "http://www.wikidata.org/entity/flour - Wikidata": "flour - Wikidat"
+        }
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
-      "volumenumber": ""
+      "volumenumber": "2"
     },
     "period": "mE"
   },
@@ -67850,6 +70288,9 @@ var senses={
     "sense": {
       "de": [
         "Bronze"
+      ],
+      "en": [
+        "bronze"
       ],
       "qid": [
         {
@@ -67871,6 +70312,9 @@ var senses={
       "de": [
         "Bronze"
       ],
+      "en": [
+        "bronze"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q34095": "bronze"
@@ -67890,6 +70334,9 @@ var senses={
     "sense": {
       "de": [
         "Metallbeamte"
+      ],
+      "en": [
+        "metal officials"
       ]
     },
     "reference": {
@@ -67906,6 +70353,9 @@ var senses={
       "de": [
         "Stele",
         "Denkstein"
+      ],
+      "en": [
+        "stele, memorial stone"
       ]
     },
     "reference": {
@@ -67921,6 +70371,9 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nige"
+      ],
+      "en": [
+        "kings"
       ],
       "qid": [
         {
@@ -67942,6 +70395,9 @@ var senses={
       "de": [
         "K\u00f6nig"
       ],
+      "en": [
+        "king "
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q116": "king"
@@ -67958,7 +70414,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "\"in Susa eine St\u00e4tte, an der geopfert wurde\""
+      ],
+      "en": [
+        "a place where sacrifices were made"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -67972,6 +70435,9 @@ var senses={
     "sense": {
       "de": [
         "Aufsch\u00fcttung"
+      ],
+      "en": [
+        "backfill"
       ]
     },
     "reference": {
@@ -67988,6 +70454,9 @@ var senses={
       "de": [
         "Amtssitz",
         "Regierungspalast"
+      ],
+      "en": [
+        "official residence, government palace"
       ]
     },
     "reference": {
@@ -68000,7 +70469,15 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Amtssitz",
+        "Regierungspalast"
+      ],
+      "en": [
+        "official residence, government palace"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -68015,6 +70492,9 @@ var senses={
       "de": [
         "Regierungsbeauftragter",
         "Statthalter"
+      ],
+      "en": [
+        "government commissioner"
       ]
     },
     "reference": {
@@ -68026,7 +70506,14 @@ var senses={
     "wordtype": {
       "http://www.wikidata.org/entity/Q1084": "noun"
     },
-    "sense": {},
+    "sense": {
+      "de": [
+        "Regierung"
+      ],
+      "en": [
+        "government commissioner"
+      ]
+    },
     "reference": {
       "title": "Hinz & Koch",
       "volumenumber": "2"
@@ -68041,6 +70528,9 @@ var senses={
       "de": [
         "Stange",
         "Balken"
+      ],
+      "en": [
+        "bar, beam"
       ],
       "qid": [
         {
@@ -68062,6 +70552,9 @@ var senses={
       "de": [
         "Wasser"
       ],
+      "en": [
+        "water"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q29053744": "water"
@@ -68081,6 +70574,9 @@ var senses={
     "sense": {
       "de": [
         "K\u00f6nig"
+      ],
+      "en": [
+        "king"
       ],
       "qid": [
         {
@@ -68102,6 +70598,9 @@ var senses={
       "de": [
         "die K\u00f6nige"
       ],
+      "en": [
+        "kings"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q116": "king"
@@ -68122,6 +70621,9 @@ var senses={
       "de": [
         "K\u00f6nig"
       ],
+      "en": [
+        "king"
+      ],
       "qid": [
         {
           "http://www.wikidata.org/entity/Q116": "king"
@@ -68140,6 +70642,9 @@ var senses={
     },
     "sense": {
       "de": [
+        "mein K\u00f6nig"
+      ],
+      "en": [
         "mein K\u00f6nig"
       ],
       "qid": [
@@ -68162,6 +70667,9 @@ var senses={
       "de": [
         "K\u00f6nigsherrschaft",
         "K\u00f6nigtum"
+      ],
+      "en": [
+        "Kingship, kingship"
       ],
       "qid": [
         {
