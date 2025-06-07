@@ -342,8 +342,8 @@ font-family: CuneiformComposite;
 						"senselabel":senses[word]["sense"]["qid"][i][Object.keys(senses[word]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[word]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+")"})
 					}else{
 						reslist.push({"l":"https://situx.github.io/elamiteannotation/"+word.replaceAll(" ",""),
-						"lemma":word,"lexcatlabel":"noun","senseval":senses[word]["sense"]["de"][0],
-						"senselabel":senses[word]["sense"]["de"][0]})
+						"lemma":word,"lexcatlabel":"noun","senseval":senses[word]["sense"]["de"][i],
+						"senselabel":senses[word]["sense"]["de"][i]})
 					}
 				}
 			}
