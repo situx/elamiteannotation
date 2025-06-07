@@ -420,7 +420,7 @@ return {
 					"senseuri":Object.keys(senses[query]["sense"]["qid"][i])[0],
 					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
 				}else{
-					reslist.push({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,
+					reslist.push({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,"taglabel":query,
 					"senselabel":senses[query]["sense"]["de"][i]})
 				}
 			}
