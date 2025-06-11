@@ -247,7 +247,7 @@ font-family: CuneiformComposite;
 
       function initializeText(data){
 				$('#cdlitext').html(data.replaceAll("\n","<br>").replaceAll("&nbsp;"," "))							
-				$('#cdlitextcunei').html(data.replaceAll("\n","<br>"))
+				$('#cdlitextcunei').html(data.replaceAll("\n"," <br>"))
 				$('p').each(function() {
 					var $this = $(this);
 					result=""
