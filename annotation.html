@@ -352,11 +352,11 @@ font-family: CuneiformComposite;
 				for(var i=0;i<senses[word]["sense"]["de"].length;i++){
 					if("qid" in senses[word]["sense"] && i<senses[word]["sense"]["qid"].length){
 						reslist.push({"l":"https://situx.github.io/elamiteannotation/"+word.replaceAll(" ",""),
-						"lemma":word,"lexcatlabel":senses[word]["wordtype"][Object.keys(senses[word]["wordtype"][0])],"senseval":Object.keys(senses[word]["sense"]["qid"][i])[0],
+						"lemma":word,"lexcatlabel":senses[word]["wordtype"][Object.keys(senses[word]["wordtype"])[0]],"senseval":Object.keys(senses[word]["sense"]["qid"][i])[0],
 						"senselabel":senses[word]["sense"]["qid"][i][Object.keys(senses[word]["sense"]["qid"][i])[0]]})
 					}else{
 						reslist.push({"l":"https://situx.github.io/elamiteannotation/"+word.replaceAll(" ",""),
-						"lemma":word,"lexcatlabel":senses[word]["wordtype"][Object.keys(senses[word]["wordtype"][0])],"senseval":"",
+						"lemma":word,"lexcatlabel":senses[word]["wordtype"][Object.keys(senses[word]["wordtype"])[0]],"senseval":"",
 						"senselabel":senses[word]["sense"]["de"][i]})
 					}
 				}
