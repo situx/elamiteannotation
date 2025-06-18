@@ -42,7 +42,11 @@
 		}
 		console.log("Checking for glyph: "+chara+" ")
 		console.log(currentfont.charToGlyph(chara))
-		return currentfont.charToGlyph(chara)
+		res=currentfont.charToGlyph(chara)
+		if(res["name"]!=".notdef"){
+			return true;
+		}
+		return false;
 	}
 	</script>
 	<style>
@@ -318,7 +322,11 @@ font-family: CuneiformComposite;
 							//if(wordsplit[chara].indexOf(repcharanschars)>0){
 							//	splittedcunei+=wordsplit[chara].substring(0,repcharanschars)
 							//}
-							isValid=checkCurrentFontForChar(nuolenna[repchara])
+							if(checkCurrentFontForChar(nuolenna[repchara])){
+								splittedcunei+=nuolenna[repchara]
+							}else{
+								splittedcunei+="<span style=\"background-color:red\">"+nuolenna[repchara]+"</span>"
+							}
 							splittedcunei+=nuolenna[repchara]
 							//if(
 						}else{
