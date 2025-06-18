@@ -36,13 +36,14 @@
 		}
 	}
 	function checkCurrentFontForChar(chara){	
-		console.log(currentfont)	
+		//console.log(currentfont)	
 		if(currentfont==null){
 			return false
 		}
 		console.log("Checking for glyph: "+chara+" ")
 		console.log(currentfont.charToGlyph(chara))
 		res=currentfont.charToGlyph(chara)
+		console.log(res["name"])
 		if(res["name"]!=".notdef"){
 			return true;
 		}
@@ -327,7 +328,7 @@ font-family: CuneiformComposite;
 							}else{
 								splittedcunei+="<span style=\"background-color:red\">"+nuolenna[repchara]+"</span>"
 							}
-							splittedcunei+=nuolenna[repchara]
+							//splittedcunei+=nuolenna[repchara]
 							//if(
 						}else{
 							splittedcunei+=wordsplit[chara]
