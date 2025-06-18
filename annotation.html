@@ -323,7 +323,7 @@ font-family: CuneiformComposite;
 							//if(wordsplit[chara].indexOf(repcharanschars)>0){
 							//	splittedcunei+=wordsplit[chara].substring(0,repcharanschars)
 							//}
-							if(checkCurrentFontForChar(nuolenna[repchara])){
+							if(currentfont==null || checkCurrentFontForChar(nuolenna[repchara])){
 								splittedcunei+=nuolenna[repchara]
 							}else{
 								splittedcunei+="<span style=\"background-color:red\">"+nuolenna[repchara]+"</span>"
