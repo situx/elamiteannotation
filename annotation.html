@@ -238,6 +238,7 @@ font-family: CuneiformComposite;
 		$("#cdlitextcunei").removeClass();
 		$('#cdlitextcunei').addClass("right")
 	  	$('#cdlitextcunei').addClass($('#font').val())
+		createCurrentFont($('#font').val())
 	  }
 	  function textArea(){
 		if(!document.getElementById("cdlitext").isContentEditable){
