@@ -3,11 +3,48 @@
 <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/@recogito/recogito-js@1.8.4/dist/recogito.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/@recogito/recogito-js@1.8.4/dist/recogito.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/opentype.js@latest/dist/opentype.min.js"></script>
 	<script src="senses.js"></script>
 	<script src="nuolenna.js"></script><script src="recogito-semantic-tags.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/d3-sparql@2.0.0/build/d3-sparql.min.js"></script>
-	<script>var r,r2,annotationnamespace="https://situx.github.io/elamiteannotation/";</script>
+	<script>var r,r2,annotationnamespace="https://situx.github.io/elamiteannotation/";
+	var currentfont=null;
+    fontlinks={
+		"santakku":"https://tacume.gitlab.io/cuneiform_webtools/fonts/Santakku.woff",
+		"santakkum":"https://tacume.gitlab.io/cuneiform_webtools/fonts/SantakkuM.woff",
+		"cuneiformob":"https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformOB.woff",
+		"ullimummia":"https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiA.woff",
+		"akkadian":"https://tacume.gitlab.io/cuneiform_webtools/fonts/Akkadian.ttf",
+		"elamiteh":"elamite_h.woff",
+		"ullikummib":"https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiB.woff",
+		"ullikummic":"https://tacume.gitlab.io/cuneiform_webtools/fonts/UllikummiC.woff",
+		"assurbanipal":"https://tacume.gitlab.io/cuneiform_webtools/fonts/Assurbanipal.woff",
+		"cuneiformna":"https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformNA.woff",
+		"sinacherib":"https://tacume.gitlab.io/cuneiform_webtools/fonts/Sinacherib.ttf",
+		"cuneiformcomposite":"https://tacume.gitlab.io/cuneiform_webtools/fonts/CuneiformComposite.ttf"
+
+	}
+	function createCurrentFont(fontname){
+		if(fontname in fontlinks){
+			const buffer = fetch(fontlinks[fontname]).then(res => res.arrayBuffer());
+			console.log(buffer)
+			buffer.then(data => {
+    			currentfont = opentype.parse(data);
+    			console.log(currentfont);
+			})
+		}
+	}
+	function checkCurrentFontForChar(chara){	
+		console.log(currentfont)	
+		if(currentfont==null){
+			return false
+		}
+		console.log("Checking for glyph: "+chara+" ")
+		console.log(currentfont.charToGlyph(chara))
+		return currentfont.charToGlyph(chara)
+	}
+	</script>
 	<style>
 @font-face {
 font-family: ElamiteH;
@@ -280,6 +317,7 @@ font-family: CuneiformComposite;
 							//if(wordsplit[chara].indexOf(repcharanschars)>0){
 							//	splittedcunei+=wordsplit[chara].substring(0,repcharanschars)
 							//}
+							isValid=checkCurrentFontForChar(nuolenna[repchara])
 							splittedcunei+=nuolenna[repchara]
 							//if(
 						}else{
