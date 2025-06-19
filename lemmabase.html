@@ -137,8 +137,8 @@ for(sense in senses){
     }
     if("loan_word" in senses[sense]){
         tabbody+="<td>"
-        for(lw of senses[sense]){
-            tabbody+="<a href=\""+lw["loan_word"]["lid"]+"\" target=\"_blank\">"+lw["loan_word"]["word"]+"@"+lw["loan_word"]["language"].toLowerCase()+" ["+lw["loan_word"]["lid_label"]+"]</a> <a href=\"https://situx.github.io/paleordia/l/?l="+lw["loan_word"]["lid"].substring(lw["loan_word"]["lid"].lastIndexOf("/")+1)+"&displaylang=en&qLabel="+lw["loan_word"]["word"]+"\" target=\"_blank\">[to PaleOrdia]</a><br/>"
+        for(lw of senses[sense]["loan_word"]){
+            tabbody+="<a href=\""+lw["lid"]+"\" target=\"_blank\">"+lw["word"]+"@"+lw["language"].toLowerCase()+" ["+lw["lid_label"]+"]</a> <a href=\"https://situx.github.io/paleordia/l/?l="+lw["lid"].substring(lw["lid"].lastIndexOf("/")+1)+"&displaylang=en&qLabel="+lw["word"]+"\" target=\"_blank\">[to PaleOrdia]</a><br/>"
         }
         tabbody+="</td>"       
     }else{
