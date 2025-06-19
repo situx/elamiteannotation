@@ -24,7 +24,7 @@
     <title>Lemma Base</title>
 </head>
 <body>
-    <h1>Lemma Base Draft</h1>
+    <h1 style="text-align:center">Lemma Base Draft</h1>
     <table id="lemmabasedraft">
         <thead>
             <tr><th>Lemma</th><th>Word Type</th><th>Sense</th><th>Time Period</th><th>Loan Word</th><th>Reference</th></tr>
@@ -108,7 +108,7 @@ for(sense in senses){
         tabbody+="<td></td>"
     }
     if("loan_word" in senses[sense]){
-        tabbody+="<td><a href=\""+senses[sense]["loan_word"]["lid"]+"\" target=\"_blank\">"+senses[sense]["loan_word"]["word"]+"@"+senses[sense]["loan_word"]["language"].toLowerCase()+" ["+senses[sense]["loan_word"]["lid_label"]+"]</a>"
+        tabbody+="<td><a href=\""+senses[sense]["loan_word"]["lid"]+"\" target=\"_blank\">"+senses[sense]["loan_word"]["word"]+"@"+senses[sense]["loan_word"]["language"].toLowerCase()+" ["+senses[sense]["loan_word"]["lid_label"]+"]</a></td>"
     }else{
         tabbody+="<td></td>"
     }
