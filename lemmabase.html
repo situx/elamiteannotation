@@ -63,7 +63,7 @@ for(sense in senses){
                 }
                 sensestring+=senses[sense]["sense"]["de"][i]+"@de "
                 if("qid" in senses[sense]["sense"] && i<senses[sense]["sense"]["qid"].length){                    
-                    sensestring+="["+senses[sense]["sense"]["qid"][i][qidurl]+" ("+qidurl.substring(qidurl.lastIndexOf("/")+1)+")</a>"
+                    sensestring+="["+senses[sense]["sense"]["qid"][i][qidurl]+" ("+qidurl.substring(qidurl.lastIndexOf("/")+1)+")]</a>"
                 }
                 sensestring+="<br/>"      
             }
