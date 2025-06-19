@@ -140,12 +140,13 @@ for(sense in senses){
     tabbody+="</tr>"
 }
 $('#lemmabasedraftbody').html(tabbody)
-table=$('#lemmabasedraft').dataTable({lengthMenu: [[10, 25, 100,250,500,1000, -1], [10, 25, 100,250,500,1000, "All"]],paging:true,pagingType: "input",})
+var table=$('#lemmabasedraft').dataTable({lengthMenu: [[10, 25, 100,250,500,1000, -1], [10, 25, 100,250,500,1000, "All"]],paging:true,pagingType: "input",})
 console.log(highlightword)
 console.log(highlightwordcounter)
 if(highlightword!=null && highlightwordcounter!=0){
    var pageNo=highlightwordcounter%10
    console.log(pageNo)
+   console.log(table)
    table.page(pageNo-1).draw('page');
 }
 </script>
