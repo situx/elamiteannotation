@@ -38,6 +38,7 @@
 tabbody=""
 for(sense in senses){
     tabbody+="<tr><td>"+sense+"</td>"
+        console.log(sense)
     tabbody+="<td><a href=\""+Object.keys(sense["wordtype"])[0]+"\" target=\"_blank\">"+sense["wordtype"][Object.keys(sense["wordtype"])[0]]+"</a></td>"
     if("sense" in sense){
         sensestring=""
