@@ -73,7 +73,7 @@ for(sense in senses){
         tabbody+="<td></td>"
     }
     if("period" in senses[sense]){
-        if("period" in tperiodmapping){
+        if(senses[sense]["period"] in tperiodmapping){
             tabbody+="<td><a href=\""+tperiodmapping[senses[sense]["period"]]+"\" target=\"_blank\">"+senses[sense]["period"]+"</a></td>"
         }else{
             tabbody+="<td>"+senses[sense]["period"]+"</td>"
