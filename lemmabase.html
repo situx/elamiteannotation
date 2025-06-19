@@ -115,10 +115,10 @@ for(sense in senses){
     if("reference" in senses[sense]){
         tabbody+="<td></td>"
         tabbody+="<td>"+senses[sense]["reference"]["title"]
-        if("volume" in senses[sense]["reference"]){
+        if("volume" in senses[sense]["reference"] && senses[sense]["reference"]["volume"]!=""){
             tabbody+=" vol. "+senses[sense]["reference"]["volume"]
         }
-        if("page" in senses[sense]["reference"]){
+        if("page" in senses[sense]["reference"] && senses[sense]["reference"]["page"]!=""){
             tabbody+=" p. "+senses[sense]["reference"]["volume"]
         }  
         tabbody+="</td>"
