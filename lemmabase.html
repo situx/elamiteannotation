@@ -39,22 +39,22 @@ tabbody=""
 for(sense in senses){
     tabbody+="<tr><td>"+sense+"</td>"
         console.log(sense)
-    tabbody+="<td><a href=\""+Object.keys(sense["wordtype"])[0]+"\" target=\"_blank\">"+sense["wordtype"][Object.keys(sense["wordtype"])[0]]+"</a></td>"
-    if("sense" in sense){
+    tabbody+="<td><a href=\""+Object.keys(senses[sense]["wordtype"])[0]+"\" target=\"_blank\">"+senses[sense]["wordtype"][Object.keys(senses[sense]["wordtype"])[0]]+"</a></td>"
+    if("sense" in senses[sense]){
         sensestring=""
-        if("de" in sense["sense"]){
-            for(var i=0;i<sense["sense"]["de"].length;i++){
+        if("de" in senses[sense]["sense"]){
+            for(var i=0;i<senses[sense]["sense"]["de"].length;i++){
                 var qidurl=""
-                if("qid" in sense["sense"] && i<sense["sense"]["qid"].length){
-                    qidurl=Object.keys(sense["sense"]["qid"][i])[0]
+                if("qid" in senses[sense]["sense"] && i<senses[sense]["sense"]["qid"].length){
+                    qidurl=Object.keys(senses[sense]["sense"]["qid"][i])[0]
                     sensestring+="<a href=\""+qidurl+"\" target=\"_blank\">"
                 }
-                if("en" in sense["sense"] && i<sense["sense"]["en"].length){
-                    sensestring+=sense["sense"]["en"][i]+" / "
+                if("en" in senses[sense]["sense"] && i<senses[sense]["sense"]["en"].length){
+                    sensestring+=senses[sense]["sense"]["en"][i]+" / "
                 }
-                sensestring+=sense["sense"][i]+" "
-                if("qid" in sense["sense"] && i<sense["sense"]["qid"].length){                    
-                    sensestring+="["+sense["sense"]["qid"][i][qidurl]+"("+qidurl.substring(qidurl.lastIndexOf("/")+1)+")</a>"
+                sensestring+=senses[sense]["sense"][i]+" "
+                if("qid" in senses[sense]["sense"] && i<senses[sense]["sense"]["qid"].length){                    
+                    sensestring+="["+senses[sense]["sense"]["qid"][i][qidurl]+"("+qidurl.substring(qidurl.lastIndexOf("/")+1)+")</a>"
                 }
                 sensestring+="<br/>"      
             }
@@ -64,12 +64,12 @@ for(sense in senses){
         tabbody+="<td></td>"
     }
     if("period" in sense){
-        tabbody+="<td>"+sense["period"]+"</td>"
+        tabbody+="<td>"+senses[sense]["period"]+"</td>"
     }else{
         tabbody+="<td></td>"
     }
     if("reference" in sense){
-        tabbody+="<td>"+sense["reference"]["title"]+" vol. "+sense["reference"]["volume"]+"</td>"
+        tabbody+="<td>"+senses[sense]["reference"]["title"]+" vol. "+senses[sense]["reference"]["volume"]+"</td>"
     }else{
         tabbody+="<td></td>"
     }
