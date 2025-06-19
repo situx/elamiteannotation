@@ -27,7 +27,7 @@
     <h1 style="text-align:center">Lemma Base Draft</h1>
     <table id="lemmabasedraft">
         <thead>
-            <tr><th>Lemma</th><th>Word Type</th><th>Sense</th><th>Time Period</th><th>Loan Word</th><th>Reference</th></tr>
+            <tr><th>Lemma</th><th>Word Type</th><th>Base</th><th>Sense</th><th>Time Period</th><th>Loan Word</th><th>Reference</th></tr>
         </thead>
         <tbody id="lemmabasedraftbody">
 
@@ -62,6 +62,11 @@ for(sense in senses){
         tabbody+="<td><a href=\""+Object.keys(senses[sense]["wordtype"])[0]+"\" target=\"_blank\">"+senses[sense]["wordtype"][Object.keys(senses[sense]["wordtype"])[0]]+" ("+Object.keys(senses[sense]["wordtype"])[0].substring(Object.keys(senses[sense]["wordtype"])[0].lastIndexOf("/")+1)+")</a></td>"
     }else{
         tabbody+="<td>N/A</td>"
+    }
+    if("base" in senses[sense]){
+        tabbody+="<td>"+senses[sense]["base"]+"</td>"
+    }else{
+        tabbody+="<td></td>"
     }
     if("sense" in senses[sense]){
         sensestring=""
