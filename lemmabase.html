@@ -147,7 +147,7 @@ if(highlightword!=null && highlightwordcounter!=0){
    var pageNo=highlightwordcounter%10
    console.log(pageNo)
    console.log(table)
-   table.page(pageNo-1).draw('page');
+   table.fnPageChange(pageNo-1)//.draw('page');
 }
 </script>
 </html>
