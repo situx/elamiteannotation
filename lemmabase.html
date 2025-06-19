@@ -27,7 +27,7 @@
     <h1>Lemma Base Draft</h1>
     <table id="lemmabasedraft">
         <thead>
-            <tr><th>Lemma</th><th>Word Type</th><th>Sense</th><th>Time Period</th><th>Reference</th></tr>
+            <tr><th>Lemma</th><th>Word Type</th><th>Sense</th><th>Time Period</th><th>Loan Word</th><th>Reference</th></tr>
         </thead>
         <tbody id="lemmabasedraftbody">
 
@@ -39,6 +39,12 @@ tperiodmapping={
     "nE":"http://www.wikidata.org/entity/Q29297050",
     "mE":"http://www.wikidata.org/entity/Q29297151",
     "oE":"http://www.wikidata.org/entity/Q29297301"
+}
+tperiodlabelmapping={
+    "nE":"Neo-Elamite Period",
+    "mE":"Middle Elamite Period",
+    "oE":"Old Elamite Period",
+    "achE":"Acheminid Elamite Period"
 }
 tabbody=""
 iseven=true
@@ -82,16 +88,40 @@ for(sense in senses){
     }
     if("period" in senses[sense]){
         if(senses[sense]["period"] in tperiodmapping){
-            tabbody+="<td><a href=\""+tperiodmapping[senses[sense]["period"]]+"\" target=\"_blank\">"+senses[sense]["period"]+"</a></td>"
+            tabbody+="<td><a href=\""+tperiodmapping[senses[sense]["period"]]+"\" target=\"_blank\">"
+            if(senses[sense]["period"] in tperiodlabelmapping){
+                tabbody+=tperiodlabelmapping[senses[sense]["period"]]
+            }else{
+                tabbody+=senses[sense]["period"]
+            }
+            tabbody+="</a></td>"
         }else{
-            tabbody+="<td>"+senses[sense]["period"]+"</td>"
+            tabbody+="<td>"
+            if(senses[sense]["period"] in tperiodlabelmapping){
+                tabbody+=tperiodlabelmapping[senses[sense]["period"]]
+            }else{
+                tabbody+=senses[sense]["period"]
+            }    
+            tabbody+="</td>"
         }      
+    }else{
+        tabbody+="<td></td>"
+    }
+    if("loan_word" in senses[sense]){
+        tabbody+="<td><a href=\""+senses[sense]["loan_word"]["lid"]+"\" target=\"_blank\">"+senses[sense]["loan_word"]["word"]+"@"+senses[sense]["loan_word"]["language"].toLowerCase()+" ["+senses[sense]["loan_word"]["lid_label"]+"]</a>"
     }else{
         tabbody+="<td></td>"
     }
     if("reference" in senses[sense]){
         tabbody+="<td></td>"
-       //tabbody+="<td>"+senses[sense]["reference"]["title"]+" vol. "+senses[sense]["reference"]["volume"]+"</td>"
+        tabbody+="<td>"+senses[sense]["reference"]["title"]
+        if("volume" in senses[sense]["reference"]){
+            tabbody+=" vol. "+senses[sense]["reference"]["volume"]
+        }
+        if("page" in senses[sense]["reference"]){
+            tabbody+=" p. "+senses[sense]["reference"]["volume"]
+        }  
+        tabbody+="</td>"
     }else{
         tabbody+="<td></td>"
     }
