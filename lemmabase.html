@@ -29,7 +29,7 @@
         <thead>
             <tr><th>Lemma</th><th>Word Type</th><th>Sense</th><th>Time Period</th><th>Reference</th></tr>
         </thead>
-        <tbody>
+        <tbody id="lemmabasedraftbody">
 
         </tbody>
     </table>
@@ -89,7 +89,7 @@ for(sense in senses){
     }
     tabbody+="</tr>"
 }
-$('#lemmabasedraft').html(tabbody)
+$('#lemmabasedraftbody').html(tabbody)
 $('#lemmabasedraft').dataTable({lengthMenu: [[10, 25, 100,250,500,1000, -1], [10, 25, 100,250,500,1000, "All"]],paging:true,pagingType: "input",})
 </script>
 </html>
