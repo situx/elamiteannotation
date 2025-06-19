@@ -20,13 +20,14 @@
 	<script src="https://cdn.datatables.net/colreorder/1.7.0/js/dataTables.colReorder.min.js"></script>
 	<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 	<script src="https://cdn.datatables.net/plug-ins/1.13.6/sorting/natural.js"></script>
+    <script src="senses.js"></script>
     <title>Lemma Base</title>
 </head>
 <body>
     <h1>Lemma Base Draft</h1>
     <table id="lemmabasedraft">
         <thead>
-
+            <tr><th>Lemma</th><th>Word Type</th><th>Sense</th><th>Time Period</th><th>Reference</th></tr>
         </thead>
         <tbody>
 
@@ -34,6 +35,45 @@
     </table>
 </body>
 <script>
-
+tabbody=""
+for(sense in senses){
+    tabbody+="<tr><td>"+sense+"</td>"
+    tabbody+="<td><a href=\""+Object.keys(sense["wordtype"])[0]+"\" target=\"_blank\">"+sense["wordtype"][Object.keys(sense["wordtype"])[0]]+"</a></td>"
+    if("sense" in sense){
+        sensestring=""
+        if("de" in sense["sense"]){
+            for(var i=0;i<sense["sense"]["de"].length;i++){
+                var qidurl=""
+                if("qid" in sense["sense"] && i<sense["sense"]["qid"].length){
+                    qidurl=Object.keys(sense["sense"]["qid"][i])[0]
+                    sensestring+="<a href=\""+qidurl+"\" target=\"_blank\">"
+                }
+                if("en" in sense["sense"] && i<sense["sense"]["en"].length){
+                    sensestring+=sense["sense"]["en"][i]+" / "
+                }
+                sensestring+=sense["sense"][i]+" "
+                if("qid" in sense["sense"] && i<sense["sense"]["qid"].length){                    
+                    sensestring+="["+sense["sense"]["qid"][i][qidurl]+"("+qidurl.substring(qidurl.lastIndexOf("/")+1)+")</a>"
+                }
+                sensestring+="<br/>"      
+            }
+        }       
+        tabbody+="<td>"+sensestring+"</td>"
+    }else{
+        tabbody+="<td></td>"
+    }
+    if("period" in sense){
+        tabbody+="<td>"+sense["period"]+"</td>"
+    }else{
+        tabbody+="<td></td>"
+    }
+    if("reference" in sense){
+        tabbody+="<td>"+sense["reference"]["title"]+" vol. "+sense["reference"]["volume"]+"</td>"
+    }else{
+        tabbody+="<td></td>"
+    }
+    tabbody+="</tr>"
+}
+$('#lemmabasedraft').dataTable({columnDefs: [{ type: 'natural', targets: '_all' }],lengthMenu: [[10, 25, 100,250,500,1000, -1], [10, 25, 100,250,500,1000, "All"]],paging:true,pagingType: "input",})
 </script>
 </html>
