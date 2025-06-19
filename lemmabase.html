@@ -145,7 +145,7 @@ for(sense in senses){
     tabbody+="</tr>"
 }
 $('#lemmabasedraftbody').html(tabbody)
-var table=$('#lemmabasedraft').DataTable({lengthMenu: [[10, 25, 100,250,500,1000, -1], [10, 25, 100,250,500,1000, "All"]],paging:true,pagingType: "input"})
+var table=$('#lemmabasedraft').DataTable({searchHighlight: true,responsive:true,lengthMenu: [[10, 25, 100,250,500,1000, -1], [10, 25, 100,250,500,1000, "All"]],paging:true,pagingType: "input"})
 if(highlightword!=null){
    res=table.page.jumpToData(highlightword,0)
    console.log(res)
