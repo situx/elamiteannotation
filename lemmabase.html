@@ -63,12 +63,12 @@ for(sense in senses){
     }else{
         tabbody+="<td></td>"
     }
-    if("period" in sense){
+    if("period" in senses[sense]){
         tabbody+="<td>"+senses[sense]["period"]+"</td>"
     }else{
         tabbody+="<td></td>"
     }
-    if("reference" in sense){
+    if("reference" in senses[sense]){
         tabbody+="<td>"+senses[sense]["reference"]["title"]+" vol. "+senses[sense]["reference"]["volume"]+"</td>"
     }else{
         tabbody+="<td></td>"
