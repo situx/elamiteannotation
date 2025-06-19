@@ -54,16 +54,22 @@ tabbody=""
 iseven=true
 curlemma=""
 var highlightwordcounter=0
+var ishighlightword=false
 var counter=0
 for(sense in senses){
     if(iseven){
         if(sense==highlightword){
             highlightwordcounter=counter
+            ishighlightword=true
         }
         curlemma=sense+" / "
         iseven=!iseven
         continue
     }
+    if(ishighlightword || sense==highlightword){
+        highlightword=curlemma+sense
+    }
+    ishighlightword=false
     counter+=1
     iseven=!iseven
     tabbody+="<tr><td>"+curlemma+sense+"</td>"
