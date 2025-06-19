@@ -41,7 +41,15 @@ tperiodmapping={
     "oE":"http://www.wikidata.org/entity/Q29297301"
 }
 tabbody=""
+iseven=true
+curlemma=""
 for(sense in senses){
+    if(iseven){
+        curlemma=sense+" / "
+        iseven=!iseven
+        continue
+    }
+    iseven=!iseven
     tabbody+="<tr><td>"+sense+"</td>"
         console.log(senses[sense])
     if("wordtype" in senses[sense]){
