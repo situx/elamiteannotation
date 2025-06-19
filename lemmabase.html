@@ -35,6 +35,8 @@
     </table>
 </body>
 <script>
+const urlParams = new URLSearchParams(queryString);
+var highlightword=urlParams.get("highlight");
 tperiodmapping={
     "nE":"http://www.wikidata.org/entity/Q29297050",
     "mE":"http://www.wikidata.org/entity/Q29297151",
@@ -49,12 +51,18 @@ tperiodlabelmapping={
 tabbody=""
 iseven=true
 curlemma=""
+var highlightwordcounter=0
+var counter=0
 for(sense in senses){
     if(iseven){
+        if(curlemma==highlightword){
+            highlightwordcounter=counter
+        }
         curlemma=sense+" / "
         iseven=!iseven
         continue
     }
+    counter+=1
     iseven=!iseven
     tabbody+="<tr><td>"+curlemma+sense+"</td>"
         console.log(senses[sense])
@@ -133,5 +141,9 @@ for(sense in senses){
 }
 $('#lemmabasedraftbody').html(tabbody)
 $('#lemmabasedraft').dataTable({lengthMenu: [[10, 25, 100,250,500,1000, -1], [10, 25, 100,250,500,1000, "All"]],paging:true,pagingType: "input",})
+if(highlightword!=null && highlightwordcounter!=0){
+   var pageNo =highlightwordcounter%10
+   table.page(pageNo-1).draw('page');
+}
 </script>
 </html>
