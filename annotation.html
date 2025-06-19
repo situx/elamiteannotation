@@ -502,7 +502,7 @@ return {
 		console.log("ElamiteSource: "+query+ " found!")
 		console.log(senses[query])
 		var reslist=[]
-		var res={"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,"taglabel":query}
+		var res={"uri":"https://DigitalPasts.github.io/ALP-Mega2024/lemmabase/?highlight="+query.replaceAll(" ",""),"label":query,"taglabel":query}
 		var lang=""
 		if("sense" in senses[query] && "de" in senses[query]["sense"]){
 			lang="de"
@@ -512,7 +512,7 @@ return {
 		if("sense" in senses[query] && lang!=""){
 			for(var i=0;i<senses[query]["sense"][lang].length;i++){
 				if("qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
-					reslist.push({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),
+					reslist.push({"uri":"https://DigitalPasts.github.io/ALP-Mega2024/lemmabase/?highlight="+query.replaceAll(" ",""),
 					"label":query,"taglabel":query,
 					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
 					"sensedescription":query+" with Sense "+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
@@ -522,8 +522,8 @@ return {
 					"label2":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
 					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
 				}else{
-					reslist.push({"uri":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ",""),"label":query,"taglabel":query,"description":query,
-					"label2":senses[query]["sense"][lang][i],"uri2":"https://situx.github.io/elamiteannotation/"+query.replaceAll(" ","")+"_s1"})
+					reslist.push({"uri":"https://DigitalPasts.github.io/ALP-Mega2024/lemmabase/?highlight="+query.replaceAll(" ",""),"label":query,"taglabel":query,"description":query,
+					"label2":senses[query]["sense"][lang][i],"uri2":"https://DigitalPasts.github.io/ALP-Mega2024/lemmabase/?highlight="+query.replaceAll(" ","")+"_s1"})
 				}
 			}
 		}
