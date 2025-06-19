@@ -35,6 +35,9 @@
     </table>
 </body>
 <script>
+tperiodmapping={
+    "nE":"http://www.wikidata.org/entity/Q29297050"
+}
 tabbody=""
 for(sense in senses){
     tabbody+="<tr><td>"+sense+"</td>"
@@ -68,7 +71,11 @@ for(sense in senses){
         tabbody+="<td></td>"
     }
     if("period" in senses[sense]){
-        tabbody+="<td>"+senses[sense]["period"]+"</td>"
+        if("period" in tperiodmapping){
+            tabbody+="<td><a href=\""+tperiodmapping[senses[sense]["period"]]+"\" target=\"_blank\">"+senses[sense]["period"]+"</a></td>"
+        }else{
+            tabbody+="<td>"+senses[sense]["period"]+"</td>"
+        }      
     }else{
         tabbody+="<td></td>"
     }
