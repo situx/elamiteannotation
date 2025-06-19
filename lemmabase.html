@@ -59,7 +59,7 @@ for(sense in senses){
     tabbody+="<tr><td>"+curlemma+sense+"</td>"
         console.log(senses[sense])
     if("wordtype" in senses[sense]){
-        tabbody+="<td><a href=\""+Object.keys(senses[sense]["wordtype"])[0]+"\" target=\"_blank\">"+senses[sense]["wordtype"][Object.keys(senses[sense]["wordtype"])[0]]+"</a></td>"
+        tabbody+="<td><a href=\""+Object.keys(senses[sense]["wordtype"])[0]+"\" target=\"_blank\">"+senses[sense]["wordtype"][Object.keys(senses[sense]["wordtype"])[0]]+" ("+Object.keys(senses[sense]["wordtype"])[0].substring(Object.keys(senses[sense]["wordtype"])[0].lastIndexOf("/")+1)+")</a></td>"
     }else{
         tabbody+="<td>N/A</td>"
     }
@@ -90,7 +90,7 @@ for(sense in senses){
         if(senses[sense]["period"] in tperiodmapping){
             tabbody+="<td><a href=\""+tperiodmapping[senses[sense]["period"]]+"\" target=\"_blank\">"
             if(senses[sense]["period"] in tperiodlabelmapping){
-                tabbody+=tperiodlabelmapping[senses[sense]["period"]]
+                tabbody+=tperiodlabelmapping[senses[sense]["period"]]+" ("+tperiodmapping[senses[sense]["period"]].substring(tperiodmapping[senses[sense]["period"]].lastIndexOf("/")+1)+")"
             }else{
                 tabbody+=senses[sense]["period"]
             }
@@ -113,14 +113,14 @@ for(sense in senses){
         tabbody+="<td></td>"
     }
     if("reference" in senses[sense]){
-        tabbody+="<td>"+senses[sense]["reference"]["title"]
+        tabbody+="<td><a href=\"http://www.wikidata.org/entity/Q130646912\" target=\"_blank\">"+senses[sense]["reference"]["title"]
         if("volume" in senses[sense]["reference"] && senses[sense]["reference"]["volume"]!=""){
             tabbody+=" vol. "+senses[sense]["reference"]["volume"]
         }
         if("page" in senses[sense]["reference"] && senses[sense]["reference"]["page"]!=""){
             tabbody+=" p. "+senses[sense]["reference"]["volume"]
         }  
-        tabbody+="</td>"
+        tabbody+="</a></td>"
     }else{
         tabbody+="<td></td>"
     }
