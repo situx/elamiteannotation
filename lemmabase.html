@@ -28,7 +28,7 @@
     <h1 style="text-align:center">Lemma Base Draft</h1>
     <table id="lemmabasedraft">
         <thead>
-            <tr><th>Lemma</th><th>Word Type</th><th>Base</th><th>Sense</th><th>Time Period</th><th>Loan Word</th><th>Reference</th></tr>
+            <tr><th>Lemma</th><th>Word Type</th><th>Base</th><th>Classifier</th><th>Morphemes</th><th>Sense</th><th>Time Period</th><th>Loan Word</th><th>Reference</th></tr>
         </thead>
         <tbody id="lemmabasedraftbody">
 
@@ -78,6 +78,16 @@ for(sense in senses){
     }
     if("base" in senses[sense]){
         tabbody+="<td>"+senses[sense]["base"]+"</td>"
+    }else{
+        tabbody+="<td></td>"
+    }
+    if("classifier" in senses[sense]){
+        tabbody+="<td>"+senses[sense]["classifier"]+"</td>"
+    }else{
+        tabbody+="<td></td>"
+    }
+    if("morpheme" in senses[sense]){
+        tabbody+="<td>"+senses[sense]["morpheme"]+"</td>"
     }else{
         tabbody+="<td></td>"
     }
