@@ -75,6 +75,7 @@ for(sense in senses){
     }
     tabbody+="</tr>"
 }
+$('#lemmabasedraft').html(tabbody)
 $('#lemmabasedraft').dataTable({columnDefs: [{ type: 'natural', targets: '_all' }],lengthMenu: [[10, 25, 100,250,500,1000, -1], [10, 25, 100,250,500,1000, "All"]],paging:true,pagingType: "input",})
 </script>
 </html>
