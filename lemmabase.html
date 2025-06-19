@@ -50,7 +50,7 @@ for(sense in senses){
         continue
     }
     iseven=!iseven
-    tabbody+="<tr><td>"+sense+"</td>"
+    tabbody+="<tr><td>"+curlemma+sense+"</td>"
         console.log(senses[sense])
     if("wordtype" in senses[sense]){
         tabbody+="<td><a href=\""+Object.keys(senses[sense]["wordtype"])[0]+"\" target=\"_blank\">"+senses[sense]["wordtype"][Object.keys(senses[sense]["wordtype"])[0]]+"</a></td>"
