@@ -191,7 +191,7 @@ font-family: CuneiformComposite;
           <br/><span class="left"><button id="owntext" onclick="textArea()">Enter own Text in ATF</button>
 		  <button id="edittext" onclick="editText()">Edit Text</button><button id="owntext" onclick="useText()">Save</button>
 		  <button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r.getAnnotations(),null,2),'json',document.getElementById('selecttext').options[document.getElementById('selecttext').selectedIndex].text+'_translit')">Save Transliteration Annotations as JSON</button></span>
-		  <span class="right"><span id="popuplang" class="left">Popup Language:<select id="popuplanguage"><option value="Elamite">Elamite</option><option value="sux">Sumerian</option><option value="akk;sux">Akkadian</option></select></span><br/><button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r2.getAnnotations(),null,2),'json',document.getElementById('selecttext').options[document.getElementById('selecttext').selectedIndex].text+'_cunei')">Save Unicode Cuneiform Annotations as JSON</button></span>
+		  <span class="right"><span id="popuplang" class="left">Tooltip Language:<select id="popuplanguage"><option value="Elamite">Elamite</option><option value="sux">Sumerian</option><option value="akk;sux">Akkadian</option></select></span><br/><button id="saveanno" onclick="saveTextAsFile(JSON.stringify(r2.getAnnotations(),null,2),'json',document.getElementById('selecttext').options[document.getElementById('selecttext').selectedIndex].text+'_cunei')">Save Unicode Cuneiform Annotations as JSON</button></span>
           
 	   <span id="fontchooser" class="right">Font: <select id="font" onchange="updateFont()">
 		  <option value="cuneiformcomposite">Cuneiform Composite (Cuneiform Composite)</option>
