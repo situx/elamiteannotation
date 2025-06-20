@@ -578,14 +578,16 @@ Elamite.format = tag =>
             recogito.SemanticTags(widgetConfig)
           ]
         });
+				  r2.loadAnnotations($('#selecttext').val().replace(".md","_unicode.json"))
 		}else{
-		        r = Recogito.init({
+		  r = Recogito.init({
           content: paraid,
       	  widgets: [
             'COMMENT',
             recogito.SemanticTags(widgetConfig)
           ]
         });
+		 r.loadAnnotations($('#selecttext').val().replace(".md","_translit.json"))
 		}
       }
       window.onload =loadText()
