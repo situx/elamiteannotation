@@ -57,7 +57,7 @@
 	    $.get("https://database.factgrid.de/wiki/D-Q499899?origin=*&action=raw", function( data ) {
 		console.log(data)
 		var translitstart=data.indexOf("id=\"transliteration\"")
-		var translitend=data.indexOf(translitstart+1,"</poem>")
+		var translitend=data.indexOf("</poem>",translitstart+1)
 		console.log(data.substring(data.indexOf(">",translitstart)+1,translitend))
             });
 	}
