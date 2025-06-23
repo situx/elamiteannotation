@@ -502,7 +502,7 @@ class ElamiteWF {
 				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
 					var thelabel=""
 					if("de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length){
-						thelabel=senses[query]["sense"][i]+" "
+						thelabel=senses[query]["sense"]["de"][i]+" "
 					}
 					if("de" in senses[query]["sense"] && i<senses[query]["sense"].length && "en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
 						thelabel+=" / "+senses[query]["sense"]["en"][i]+" "
@@ -600,7 +600,7 @@ class ElamiteSense {
 				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
 					var thelabel=""
 					if("de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length){
-						thelabel=senses[query]["sense"][i]+" "
+						thelabel=senses[query]["sense"]["de"][i]+" "
 					}
 					if("de" in senses[query]["sense"] && i<senses[query]["sense"].length && "en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
 						thelabel+=" / "+senses[query]["sense"]["en"][i]+" "
