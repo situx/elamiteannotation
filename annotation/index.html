@@ -513,11 +513,11 @@ class ElamiteWF {
 					"label":query,"taglabel":query,
 					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
 					"sensedescription":query+" with Wordform "+senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
-					"senselabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]],
-					"senseuri":Object.keys(senses[query]["sense"]["qid"][i])[0],
+					"senselabel":senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+")",
+					"senseuri":senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]],
 					"uri2":senses[query]["wordtype"],
 					"label2":senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
-					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
+					"sensetaglabel":senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") "})
 				}else{
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 						      "label":query,
