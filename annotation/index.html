@@ -54,7 +54,7 @@
 		return false;
 	}
         function parseFromWikiPage(){
-	    $.get("https://database.factgrid.de/wiki/D-Q499899?origin=*&action=raw", function( data ) {
+	    $.get("https://database.factgrid.de/wiki/D-Q894369?origin=*&action=raw", function( data ) {
 		console.log(data)
 		var translitstart=data.indexOf("id=\"transliteration\"")
 		var translitend=data.indexOf("</poem>",translitstart+1)
