@@ -533,7 +533,7 @@ class ElamiteWF {
 					"label2":thelabel,
 					"sensetaglabel":thelabel})
 				}else if(this.wordformmode && "wordtype" in senses[query]){
-					if(!(Object.keys(senses[query]["wordtype"])[0] in wordtypes){
+					if(!(Object.keys(senses[query]["wordtype"])[0] in wordtypes)){
 						reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 						"label":query,"taglabel":query,
 						"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
@@ -631,7 +631,7 @@ class ElamiteSense {
 					"label2":thelabel,
 					"sensetaglabel":thelabel})
 				}else if(this.wordformmode && "wordtype" in senses[query]["sense"]){
-					if(!(Object.keys(senses[query]["wordtype"])[0] in wordtypes){
+					if(!(Object.keys(senses[query]["wordtype"])[0] in wordtypes)){
 						reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 						"label":query,"taglabel":query,
 						"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
