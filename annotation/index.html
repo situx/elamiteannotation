@@ -499,16 +499,26 @@ class ElamiteWF {
 		if("sense" in senses[query] && lang!=""){
 			for(var i=0;i<senses[query]["sense"][lang].length;i++){
 				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
+					thelabel=""
+					if("de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length){
+						thelabel=senses[query]["sense"][i]+" "
+					}
+					if("de" in senses[query]["sense"] && i<senses[query]["sense"].length && "en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
+						thelabel+=" / "+senses[query]["sense"]["en"][i]+" "
+					}else if("en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
+						thelabel+=senses[query]["sense"]["en"][i]+" "
+					}
+					thelabel+="["+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+")] "
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 					"label":query,"taglabel":query,
-					"description":query+": "+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
-					"sensedescription":query+" with Sense "+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
-					"senselabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]],
+					"description":query+": "+thelabel,
+					"sensedescription":query+" with Sense "+thelabel,
+					"senselabel":thelabel,
 					"senseuri":Object.keys(senses[query]["sense"]["qid"][i])[0],
 					"uri2":Object.keys(senses[query]["sense"]["qid"][i])[0],
-					"label2":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
-					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
-				}else if(!this.wordformmode && !("qid" in senses[query]["sense"]) && "de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length){
+					"label2":thelabel,
+					"sensetaglabel":thelabel})
+				}else if((!this.wordformmode && "qid" in senses[query]["sense"] && i>=senses[query]["sense"]["qid"].length && "de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length) || (!this.wordformmode && !("qid" in senses[query]["sense"]) && "de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length)){
 					thelabel=senses[query]["sense"]["de"][i]
 					if("en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
 						thelabel+=" / "+senses[query]["sense"]["en"][i]
@@ -583,15 +593,25 @@ class ElamiteSense {
 		if("sense" in senses[query] && lang!=""){
 			for(var i=0;i<senses[query]["sense"][lang].length;i++){
 				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
+					thelabel=""
+					if("de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length){
+						thelabel=senses[query]["sense"][i]+" "
+					}
+					if("de" in senses[query]["sense"] && i<senses[query]["sense"].length && "en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
+						thelabel+=" / "+senses[query]["sense"]["en"][i]+" "
+					}else if("en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
+						thelabel+=senses[query]["sense"]["en"][i]+" "
+					}
+					thelabel+="["+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+")] "
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 					"label":query,"taglabel":query,
-					"description":query+": "+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
-					"sensedescription":query+" with Sense "+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
-					"senselabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]],
+					"description":query+": "+thelabel,
+					"sensedescription":query+" with Sense "+thelabel,
+					"senselabel":thelabel,
 					"senseuri":Object.keys(senses[query]["sense"]["qid"][i])[0],
 					"uri2":Object.keys(senses[query]["sense"]["qid"][i])[0],
-					"label2":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
-					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
+					"label2":thelabel,
+					"sensetaglabel":thelabel})
 				}else if(!this.wordformmode && !("qid" in senses[query]["sense"]) && "de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length){
 					thelabel=senses[query]["sense"]["de"][i]
 					if("en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
