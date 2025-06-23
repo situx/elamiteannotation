@@ -508,7 +508,7 @@ class ElamiteWF {
 					"uri2":Object.keys(senses[query]["sense"]["qid"][i])[0],
 					"label2":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
 					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
-				}if(this.wordformmode && "wordtype" in senses[query]["sense"]){
+				}if(this.wordformmode && "wordtype" in senses[query]){
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 					"label":query,"taglabel":query,
 					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
