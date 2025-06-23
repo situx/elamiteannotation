@@ -515,9 +515,9 @@ class ElamiteWF {
 					"sensedescription":query+" with Wordform "+senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
 					"senselabel":senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+")",
 					"senseuri":senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]],
-					"uri2":senses[query]["wordtype"],
-					"label2":senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
-					"sensetaglabel":senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") "})
+					"uri2":Object.keys(senses[query]["wordtype"])[0],
+					"label2":senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+" ("+Object.keys(senses[query]["wordtype"])[0]+") ",
+					"sensetaglabel":senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+" ("+Object.keys(senses[query]["wordtype"])[0]+") "})
 				}else{
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 						      "label":query,
