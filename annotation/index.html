@@ -58,7 +58,7 @@
 		console.log(data)
 		var translitstart=data.indexOf("id=\"transliteration\"")
 		var translitend=data.indexOf(translitstart+1,"</poem>")
-		console.log(data.substring(translitstart.indexOf(">")+1,translitend))
+		console.log(data.substring(data.indexOf(">",translitstart)+1,translitend))
             });
 	}
 	parseFromWikiPage()
