@@ -474,36 +474,12 @@ font-family: CuneiformComposite;
 	}
 	  
 	
-	class Elamite {
+class ElamiteWF {
 
-  // Configuration parameters provided 
-  // to the widget during initialization
   constructor(widgetConfig) {
-    this.name = widgetConfig?.name || 'Elamite'
-    this.config = opt_config;
-    this.formattingtags=["sup","sub","b","i"]	  
+    this.name = widgetConfig?.name || 'ElamiteWF'
+    this.wordformmode=true	  
   }
-
-
-
-/*
-return { 
-          uri: result.lf?.value,
-		  uri2: (this.config?.wordformmode ? (result.lfgram?.value ?? "") : (result.senseval?.value ?? "")),
-		  senseuri: result.senseval?.value ?? "",
-		  senselabel: result.senselabel?.value ?? "",
-		  sensetaglabel: result.senselabel?.value ? result.senselabel?.value+"("+result.senseval?.value.substring(result.senseval?.value.indexOf('entity/Q') + 7)+")" : "",
-		  sensedescription: (result.senselabel?.value ?? "")+" "+("("+result.senseval?.value+")" ?? ""),
-		  description2: (this.config?.wordformmode ? (result.gflabel?.value ?? "")+" "+("("+(result.lfgram?.value ?? "")+")" ?? ""): (result.senselabel?.value ?? "")+" "+("("+result.senseval?.value+")" ?? "")),
-		  wordformlabel: (result.gflabel?.value ?? ""),
-		  wordformuri: (result.lfgram?.value ?? ""),
-		  wordformmode: (this.config?.wordformmode ?? false),
-          label: (result.lemma?.value ?? ""), 
-		  label2: (this.config?.wordformmode ? (result.gflabel?.value ?? "") : (result.senselabel?.value ?? "")),
-		  taglabel: result.lemma?.value ? result.lemma?.value+"("+result.lf?.value.substring(result.lf?.value.indexOf('entity/Q') + 7)+")" : result.lf?.value.substring(result.lf?.value.indexOf('entity/Q') + 7),
-          description: "Word "+(result.lemma?.value ?? "")+(result.gflabel?.value ? " in "+result.gflabel?.value : "")+" with sense "+(result.senselabel?.value ?? "")
-        };
-*/
 
   // Query string + global widget configuration (language, etc.)
   async query(query, globalConfig) {
@@ -522,7 +498,7 @@ return {
 		}
 		if("sense" in senses[query] && lang!=""){
 			for(var i=0;i<senses[query]["sense"][lang].length;i++){
-				if(!this.config.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
+				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 					"label":query,"taglabel":query,
 					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
@@ -532,7 +508,7 @@ return {
 					"uri2":Object.keys(senses[query]["sense"]["qid"][i])[0],
 					"label2":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
 					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
-				}if(this.config.wordformmode && "wordtype" in senses[query]["sense"]){
+				}if(this.wordformmode && "wordtype" in senses[query]["sense"]){
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 					"label":query,"taglabel":query,
 					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
@@ -561,13 +537,82 @@ return {
 
 }
 
-Elamite.matches = tag =>
+ElamiteWF.matches = tag =>
   true;
 
-Elamite.format = tag =>
+ElamiteWF.format = tag =>
   (tag.label?tag.label+"(":"")+tag.uri.substring(tag.uri.lastIndexOf('/') + 1)+(tag.label?")":"");
 
 
+class ElamiteSense {
+
+  constructor(widgetConfig) {
+    this.name = widgetConfig?.name || 'ElamiteSense'
+    this.wordformmode=false
+  }
+
+  // Query string + global widget configuration (language, etc.)
+  async query(query, globalConfig) {
+	console.log("ElamiteSource: "+query)
+	console.log(senses)
+	if(query in senses){
+		console.log("ElamiteSource: "+query+ " found!")
+		console.log(senses[query])
+		var reslist=[]
+		var res={"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),"label":query,"taglabel":query}
+		var lang=""
+		if("sense" in senses[query] && "de" in senses[query]["sense"]){
+			lang="de"
+		}else if("sense" in senses[query] && "en" in senses[query]["sense"]){
+			lang="en"
+		}
+		if("sense" in senses[query] && lang!=""){
+			for(var i=0;i<senses[query]["sense"][lang].length;i++){
+				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
+					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
+					"label":query,"taglabel":query,
+					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
+					"sensedescription":query+" with Sense "+senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
+					"senselabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]],
+					"senseuri":Object.keys(senses[query]["sense"]["qid"][i])[0],
+					"uri2":Object.keys(senses[query]["sense"]["qid"][i])[0],
+					"label2":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") ",
+					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
+				}if(this.wordformmode && "wordtype" in senses[query]["sense"]){
+					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
+					"label":query,"taglabel":query,
+					"description":query+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
+					"sensedescription":query+" with Wordform "+senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
+					"senselabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]],
+					"senseuri":Object.keys(senses[query]["sense"]["qid"][i])[0],
+					"uri2":senses[query]["wordtype"],
+					"label2":senses[query]["wordtype"]+" ("+senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+") ",
+					"sensetaglabel":senses[query]["sense"]["qid"][i][Object.keys(senses[query]["sense"]["qid"][i])[0]]+" ("+Object.keys(senses[query]["sense"]["qid"][i])[0].replace("http://www.wikidata.org/entity/","")+") "})
+				}else{
+					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
+						      "label":query,
+						      "taglabel":query,
+						      "description":query,
+					"label2":senses[query]["sense"][lang][i],"uri2":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"_s1"})
+				}
+			}
+		}
+		
+		console.log(reslist)
+		return reslist
+	}
+	console.log("ElamiteSource: "+query+ " not found!")
+	return [];
+  }
+
+}
+
+ElamiteSense.matches = tag =>
+  true;
+
+ElamiteSense.format = tag =>
+  (tag.label?tag.label+"(":"")+tag.uri.substring(tag.uri.lastIndexOf('/') + 1)+(tag.label?")":"");
+	      
 
       function loadRecogito(paraid){
         // Configuration options for the semantic tag widget
@@ -576,8 +621,8 @@ Elamite.format = tag =>
           // Could support functions in the future, for more
           // customization
           dataSources: [
-		  {"source":Elamite,name: "Elamite Sense",wordformmmode:false},
-		  {"source":Elamite,name: "Elamite Wordform",wordformmmode:false},
+		  ElamiteSense,
+		  ElamiteWF,
             //'Wikidata',
 			{ source: 'WikidataLexeme', name: 'WD Lexeme', wordformmode:false },
 			//{ source: 'WikidataLexeme', name: 'WD Lexeme Regex', wordformmode:false, normpattern:/[\[\]\(\),\.#!\?]/g, targetpattern:""},
