@@ -552,8 +552,9 @@ Elamite.format = tag =>
           // Could support functions in the future, for more
           // customization
           dataSources: [
-	    Elamite,
-            'Wikidata',
+		  {"source":Elamite,name: "Elamite Sense",wordformmmode:false},
+		  {"source":Elamite,name: "Elamite Wordform",wordformmmode:false},
+            //'Wikidata',
 			{ source: 'WikidataLexeme', name: 'WD Lexeme', wordformmode:false },
 			//{ source: 'WikidataLexeme', name: 'WD Lexeme Regex', wordformmode:false, normpattern:/[\[\]\(\),\.#!\?]/g, targetpattern:""},
 			//{ source: 'WikidataLexeme', name: 'WD Lexeme CB', wordformmode:false, normpattern:function(query){ query=query.replaceAll("š","sz"); query=query.replaceAll(/[\[\]\(\),\.#!\?]/g,""); console.log(query); return query}, targetpattern:""},
