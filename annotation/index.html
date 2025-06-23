@@ -499,7 +499,7 @@ class ElamiteWF {
 		if("sense" in senses[query] && lang!=""){
 			for(var i=0;i<senses[query]["sense"][lang].length;i++){
 				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
-					thelabel=""
+					var thelabel=""
 					if("de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length){
 						thelabel=senses[query]["sense"][i]+" "
 					}
@@ -519,7 +519,7 @@ class ElamiteWF {
 					"label2":thelabel,
 					"sensetaglabel":thelabel})
 				}else if((!this.wordformmode && "qid" in senses[query]["sense"] && i>=senses[query]["sense"]["qid"].length && "de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length) || (!this.wordformmode && !("qid" in senses[query]["sense"]) && "de" in senses[query]["sense"] && i<senses[query]["sense"]["de"].length)){
-					thelabel=senses[query]["sense"]["de"][i]
+					var thelabel=senses[query]["sense"]["de"][i]
 					if("en" in senses[query]["sense"] && i<senses[query]["sense"]["en"].length){
 						thelabel+=" / "+senses[query]["sense"]["en"][i]
 					}
