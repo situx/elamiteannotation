@@ -529,8 +529,8 @@ class ElamiteWF {
 					"description":query+": "+thelabel,
 					"sensedescription":query+" with Sense "+thelabel,
 					"senselabel":thelabel,
-					"senseuri":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"_s"+i,
-					"uri2":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"_s"+i,
+					"senseuri":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"&sense="+query.replaceAll(" ","")+"_s"+i,
+					"uri2"::annotationnamespace+"?highlight="+query.replaceAll(" ","")+"&sense="+query.replaceAll(" ","")+"_s"+i,
 					"label2":thelabel,
 					"sensetaglabel":thelabel})
 				}else if(this.wordformmode && "wordtype" in senses[query]){
@@ -551,7 +551,7 @@ class ElamiteWF {
 						      "label":query,
 						      "taglabel":query,
 						      "description":query,
-					"label2":senses[query]["sense"][lang][i],"uri2":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"_s1"})
+					"label2":senses[query]["sense"][lang][i],"uri2":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"&sense="+query.replaceAll(" ","")+"_s1"})
 				}
 			}
 		}
@@ -627,8 +627,8 @@ class ElamiteSense {
 					"description":query+": "+thelabel,
 					"sensedescription":query+" with Sense "+thelabel,
 					"senselabel":thelabel,
-					"senseuri":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"_s"+i,
-					"uri2":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"_s"+i,
+					"senseuri"::annotationnamespace+"?highlight="+query.replaceAll(" ","")+"&sense="+query.replaceAll(" ","")+"_s"+i,
+					"uri2"::annotationnamespace+"?highlight="+query.replaceAll(" ","")+"&sense="+query.replaceAll(" ","")+"_s"+i,
 					"label2":thelabel,
 					"sensetaglabel":thelabel})
 				}else if(this.wordformmode && "wordtype" in senses[query]["sense"]){
@@ -649,7 +649,7 @@ class ElamiteSense {
 						      "label":query,
 						      "taglabel":query,
 						      "description":query,
-					"label2":senses[query]["sense"][lang][i],"uri2":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"_s1"})
+					"label2":senses[query]["sense"][lang][i],"uri2":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"&sense="+query.replaceAll(" ","")+"_s1"})
 				}
 			}
 		}
