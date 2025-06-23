@@ -53,6 +53,15 @@
 		}
 		return false;
 	}
+        function parseFromWikiPage(){
+	    $.get("https://database.factgrid.de/wiki/D-Q499899?action=raw", function( data ) {
+		console.log(data)
+		translitstart=data.indexOf("id=\"transliteration\"")
+		translitend=data.indexOf(translitstart+1,"</poem>")
+		console.log(data.substring(translitstart.indexOf(">")+1,translitend)
+            });
+	}
+	parseFromWikiPage()
 	</script>
 	<style>
 @font-face {
