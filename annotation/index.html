@@ -496,6 +496,7 @@ class ElamiteWF {
 		}else if("sense" in senses[query] && "en" in senses[query]["sense"]){
 			lang="en"
 		}
+		var wordtypes={}
 		if("sense" in senses[query] && lang!=""){
 			for(var i=0;i<senses[query]["sense"][lang].length;i++){
 				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
@@ -593,7 +594,7 @@ class ElamiteSense {
 		}else if("sense" in senses[query] && "en" in senses[query]["sense"]){
 			lang="en"
 		}
-		wordtypes={}
+		var wordtypes={}
 		if("sense" in senses[query] && lang!=""){
 			for(var i=0;i<senses[query]["sense"][lang].length;i++){
 				if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
