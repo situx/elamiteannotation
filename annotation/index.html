@@ -554,7 +554,7 @@ class ElamiteWF {
 						"uri2":annotationnamespace+"?highlight="+query.replaceAll(" ","")+"&sense="+query.replaceAll(" ","")+"_s"+(i+1),
 						"label2":thelabel,
 						"sensetaglabel":thelabel})
-					}else if(this.wordformmode && "wordtype" in senses[query]["sense"]){
+					}else if(this.wordformmode && "wordtype" in senses[query]){
 						if(!(Object.keys(senses[query]["wordtype"])[0] in wordtypes)){
 							reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
 							"label":query,"taglabel":query,
