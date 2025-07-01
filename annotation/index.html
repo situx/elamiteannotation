@@ -504,7 +504,7 @@ class ElamiteWF {
 		}
 		var wordtypes={}
 		var sensecounter=0
-		if("sense" in senses[query] && lang!=""){
+		if("sense" in senses[query]){
 			if(this.wordformmode && "wordtype" in senses[query]["sense"] && senses[query]["sense"]=={}){
 				if(!(Object.keys(senses[query]["wordtype"])[0] in wordtypes)){
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
@@ -518,7 +518,7 @@ class ElamiteWF {
 					"sensetaglabel":senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+" ("+Object.keys(senses[query]["wordtype"])[0]+") "})
 					wordtypes[Object.keys(senses[query]["wordtype"])[0]]=true
 				}
-			}else{
+			}else if(lang!=""){
 				for(var i=0;i<senses[query]["sense"][lang].length;i++){
 					if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
 						var thelabel=""
@@ -617,7 +617,7 @@ class ElamiteSense {
 			lang="en"
 		}
 		var wordtypes={}
-		if("sense" in senses[query] && lang!=""){
+		if("sense" in senses[query]){
 			if(this.wordformmode && "wordtype" in senses[query]["sense"] && senses[query]["sense"]=={}){
 				if(!(Object.keys(senses[query]["wordtype"])[0] in wordtypes)){
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
@@ -631,7 +631,7 @@ class ElamiteSense {
 					"sensetaglabel":senses[query]["wordtype"][Object.keys(senses[query]["wordtype"])[0]]+" ("+Object.keys(senses[query]["wordtype"])[0]+") "})
 					wordtypes[Object.keys(senses[query]["wordtype"])[0]]=true
 				}
-			}else{
+			}else if(lang!=""){
 				for(var i=0;i<senses[query]["sense"][lang].length;i++){
 					if(!this.wordformmode && "qid" in senses[query]["sense"] && i<senses[query]["sense"]["qid"].length){
 						var thelabel=""
