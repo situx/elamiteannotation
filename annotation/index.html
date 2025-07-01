@@ -505,6 +505,8 @@ class ElamiteWF {
 		var wordtypes={}
 		var sensecounter=0
 		if("sense" in senses[query]){
+			console.log(senses[query]["sense"])
+			console.log(senses[query]["wordtype"])
 			if(this.wordformmode && "wordtype" in senses[query] && senses[query]["sense"]=={}){
 				if(!(Object.keys(senses[query]["wordtype"])[0] in wordtypes)){
 					reslist.push({"uri":annotationnamespace+"?highlight="+query.replaceAll(" ",""),
