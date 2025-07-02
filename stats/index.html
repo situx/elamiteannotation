@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+</style>
+<script src="../js/data/stats.js"></script>
+<title>Lemmabase Stats</title>
+</head>
+<body>
+<h1>Lemmabase Stats</h1>
+<table>
+<thead>
+<tr><th>Label</th><th>Value</th></tr>
+</thead>
+<tbody id="statbody">
+
+</tbody>
+</table>
+<script>
+result=""
+result+="<tr><td>Senses/With QID</td><td>"+stats["itemsWithQID"]+"/"+stats["itemWithSenseDE"]+"="+((stats["itemsWithQID"]/stats["itemWithSenseDE"])*100)+"%</td></tr>"
+result+="<tr><td>Reference Complete?</td><td>"+stats["completereference"]+"/"+stats["itemcount"]+"="+((stats["completereference"]/stats["itemcount"])*100)+"%</td></tr>"
+result+="<tr><td>Marked as done:</td><td>"+stats["done"]+"/"+stats["itemcount"]+"="+((stats["done"]/stats["itemcount"])*100)+"%</td></tr>"
+result+="<tr><td colspan=2>Word Type Statistics</td></tr>"
+for(tp in stats["wordcase"]){
+	result+="<tr><td>"+tp+"</td><td>"+stats["wordcase"][tp]+"</td></tr>"
+}
+result+="<tr><td colspan=2>Time Period Statistics</td></tr>"
+for(tp in stats["period"]){
+	result+="<tr><td>"+tp+"</td><td>"+stats["period"][tp]+"</td></tr>"
+}
+document.getElementById("statbody").innerHTML=result
+</script>
+</body>
+</html>
