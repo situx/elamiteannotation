@@ -93,20 +93,22 @@ for(sense in senses){
     }
     if("sense" in senses[sense]){
         sensestring=""
+	sensestringstr=""
         if("de" in senses[sense]["sense"]){
             for(var i=0;i<senses[sense]["sense"]["de"].length;i++){
                 var qidurl=""
                 if("qid" in senses[sense]["sense"] && i<senses[sense]["sense"]["qid"].length){
                     qidurl=Object.keys(senses[sense]["sense"]["qid"][i])[0]
-                    sensestring+="<a href=\""+qidurl+"\" target=\"_blank\">"
+                    sensestringstr+="<a href=\""+qidurl+"\" target=\"_blank\">"
                 }
                 if("en" in senses[sense]["sense"] && i<senses[sense]["sense"]["en"].length){
                     sensestring+=senses[sense]["sense"]["en"][i]+"@en / "
                 }
                 sensestring+=senses[sense]["sense"]["de"][i]+"@de "
                 if("qid" in senses[sense]["sense"] && i<senses[sense]["sense"]["qid"].length){                    
-                    sensestring+="["+senses[sense]["sense"]["qid"][i][qidurl]+" ("+qidurl.substring(qidurl.lastIndexOf("/")+1)+")]</a> <a href=\"https://situx.github.io/paleordia/sq/?q="+qidurl.substring(qidurl.lastIndexOf("/")+1)+"&displaylang=en&lang=Q35470&qLabel="+sensestring+"\" target=\"_blank\">[&#8599;]</a>"
+                    sensestring+="["+senses[sense]["sense"]["qid"][i][qidurl]+" ("+qidurl.substring(qidurl.lastIndexOf("/")+1)+")]</a> <a href=\"https://situx.github.io/paleordia/sq/?q="+qidurl.substring(qidurl.lastIndexOf("/")+1)+"&displaylang=en&lang=Q35470&qLabel="+sensestringstr+"\" target=\"_blank\">[&#8599;]</a>"
                 }
+		sensestring=sensestringstr+sensestring
                 sensestring+="<br/>"      
             }
         }       
